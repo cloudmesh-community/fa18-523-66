@@ -1,6 +1,7 @@
 # Week Fri 08/31/18 - 09/06/18
   * Watched weekly videos
   * Set-up ubuntu on VirtualBox
+  * Created README.yml and notebook.md files on Github
 
 
 
