@@ -1,3 +1,7 @@
+# Week Fri 09/21/18 - 09/27/18
+  * Ongoing assignment-1 : Technology summaries
+
+
 # Week Fri 09/14/18 - 09/20/18
   * Started learning scala
   * Set up jupyter to learn spark
