@@ -1,4 +1,9 @@
 # Week Fri 09/28/18 - 10/04/18
+  * Completed assignment-1 : Technology summaries
+  * Submitted proposal for technology paper and project report
+  
+  
+# Week Fri 09/28/18 - 10/04/18
   * Ongoing assignment-1 : Technology summaries
   * Working on paper 
 
