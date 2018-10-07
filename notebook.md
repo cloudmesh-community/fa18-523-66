@@ -1,3 +1,8 @@
+# Week Fri 09/28/18 - 10/04/18
+  * Ongoing assignment-1 : Technology summaries
+  * Working on paper 
+
+
 # Week Fri 09/21/18 - 09/27/18
   * Ongoing assignment-1 : Technology summaries
 
