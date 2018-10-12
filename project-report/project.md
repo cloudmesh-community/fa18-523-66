@@ -1,4 +1,4 @@
-## I523-E534 Big Data Applications and Analytics (Ready for review)
+## I523-E534 Big Data Applications and Analytics : Report draft - (Ready for review)
 ## "Do I buy or sell?" - Using Big Data to predict Stock Prices
 
 ### Fall 2018
