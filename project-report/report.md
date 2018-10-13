@@ -1,6 +1,7 @@
 ## "Buy, sell or hold?" - Using Big Data to predict Stock Prices  :hand:  :smiley:
 
 Ritu Susan Sanjay   [*rssanjay@iu.edu*]
+
 13th October, 2018
 
 #### Abstract:
