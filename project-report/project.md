@@ -21,3 +21,24 @@ favorable returns. "Algorithmic trading now uses a great deal of historical data
 mathematical formulas to help investors maximize the returns in their investment portfolios[@fa18-523-66-bigdata-for-finance]". In years past, traders and banks made decisions based on market trends and calculated risks on each investment. Today, howver, they are at an advantage : computers can do the same things, only it is done on a massive scale and is far more accurate. The algorithm developed makes use of the vast amout of resources it has at its disposal. The accuracy of teh predictions made by a computer depend on the input data i.e. the closer the data is to the real-time the more accurate its analysis of the current market. In his book, Our Final Invention, James Barrat says that, if humans are ready to tackle AI and develop it to the ultimate Artificial Super Intelligence, then the Wall Street mught be the first place to look for such an advancement [@fa18-523-66-our-final-invention]. Coming back to the point made earlier : the investment sector holds the most promising advancements for data scientists. 
 
 On this note, it is then necessary to state that the stock prediction can be a very tempting prospect for most data scientists. The financial market has a very short feedback cycle and hence quick validation of predictions is possible. However, it is extremely difficult to develop a model that can provide higher levels of accuracy in most of its predictions. It is very much possible that the model developed would make predictions for a maximum of one day after which you might have to revamp it all over again [@fa18-523-66-python-stock-pred]. Nonetheless, this paper will attempt to develop a model that predicts the trends for stock prices over time.
+
+#### Dataset
+
+1) Quandl
+2) Yahoo finance
+
+#### Design
+
+TBD
+
+#### Benchmark
+
+TBD
+
+#### Conclusion
+
+TBD
+
+#### References
+
+All references can be found in the file report.bib
