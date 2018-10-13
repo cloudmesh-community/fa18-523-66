@@ -1,4 +1,4 @@
-## Technology Paper : Draft (Ready for review)
+## Technology Paper  :hand:  :smiley: 
 
 #### SAS Viya
 
