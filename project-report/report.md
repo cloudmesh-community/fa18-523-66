@@ -1,8 +1,7 @@
 ## "Buy, sell or hold?" - Using Big Data to predict Stock Prices  :hand:  :smiley:
 
-### Fall 2018
-
 Ritu Susan Sanjay   [*rssanjay@iu.edu*]
+13th October, 2018
 
 #### Abstract:
 
@@ -22,23 +21,27 @@ mathematical formulas to help investors maximize the returns in their investment
 
 On this note, it is then necessary to state that the stock prediction can be a very tempting prospect for most data scientists. The financial market has a very short feedback cycle and hence quick validation of predictions is possible. However, it is extremely difficult to develop a model that can provide higher levels of accuracy in most of its predictions. It is very much possible that the model developed would make predictions for a maximum of one day after which you might have to revamp it all over again [@fa18-523-66-python-stock-pred]. Nonetheless, this paper will attempt to develop a model that predicts the trends for stock prices over time.
 
-#### Dataset
+#### Dataset:
 
 1) Quandl
 2) Yahoo finance
 
-#### Design
+#### Design:
 
 TBD
 
-#### Benchmark
+#### Benchmark:
 
 TBD
 
-#### Conclusion
+#### Conclusion:
 
 TBD
 
-#### References
+#### Acknowledgements:
+
+The author would like to thank professor Dr. Gregor von Laszewski and all the piazza team TAs for their guidance during this project.
+
+#### References:
 
 All references can be found in the file report.bib
