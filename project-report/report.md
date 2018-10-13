@@ -1,17 +1,27 @@
-## "Buy, sell or hold?" - Using Big Data to predict Stock Prices  :hand:  :smiley:
+## "Buy, sell or hold?" - Using Big Data to predict Stock Prices  :hand:  fa18-523-66
 
-Ritu Susan Sanjay   [*rssanjay@iu.edu*]
+Ritu Susan Sanjay   
 
-13th October, 2018
+rssanjay@iu.edu
+
+Indiana University, Bloomington
+
+hid : fa18-523-66
+
+github :
+
+code :
+
+
+Keywords:
+
+Stock prediction, SciPy, Python, Regression analysis, Classification, Quandl, Unsupervised Learning, Dow Jones
+
 
 #### Abstract:
 
 Big data is everywhere. Newspapers and magazines are teeming with details on how Company A implemented the perfect business plan or how XYZ pharmaceuticals developed the drug to reverse some previously uncurable disease. Better still is the internet with more resources to utilize big data. Numerous copies of books have been published on this topic and Forbes rates big data related jobs as the most desirable. Every single industry today has finally turned its attentions to better understanding how to use data to serve customers better and reap profits. In light of this, there are two industries which have the most to benefit from data science : a) the finance and investment industry and b) the medical industry. This paper focuses on how big data can be used to predict stock the rise and fall in stock prices. 
 
-
-#### Keywords:
-
-Stock prediction, SciPy, Python, Regression analysis, Classification, Quandl, Unsupervised Learning, Dow Jones
 
 #### Introduction:
 
