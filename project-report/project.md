@@ -1,5 +1,4 @@
-## I523-E534 Big Data Applications and Analytics :  :hand:  :smiley:
-## "Do I buy or sell?" - Using Big Data to predict Stock Prices
+## "Buy, sell or hold?" - Using Big Data to predict Stock Prices  :hand:  :smiley:
 
 ### Fall 2018
 
