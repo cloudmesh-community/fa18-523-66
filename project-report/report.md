@@ -54,7 +54,7 @@ TBD
 
 ## Acknowledgements:
 
-The author would like to thank professor Dr. Gregor von Laszewski and all the piazza team TAs for their guidance during this project.
+The author would like to thank professor Dr. Geoffrey C. Fox, Dr. Gregor von Laszewski for providing the opportunity to embark on this project. This project would not be possible without the guidance and input sfrom the entire piazza team.
 
 ## References:
 
