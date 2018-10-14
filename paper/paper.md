@@ -1,8 +1,8 @@
 # SAS Viya  :hand:
 
-:o: author and hid missing
+Ritu Susan Sanjay
 
-:o: there is a lot of advrtisement in this paper
+HID : fa18-523-66
 
 Data Science - quite  a difficult term to technically define. However, the demand for data scientists is at an all time high. At the simplest level, it is the art of making sense from the never-ending sea of data - simple as that. To better unserstand this, we can think of developing a data mining model analogous to making a dish. You first scrape together the ingredients; this is our raw data. To improve the taste, you add a pinch of salt and other seasonings or spices; this is the creation of new predictor variables. Finally, you mix it all up together, and have  a taste. If it doesn't taste right, you might want to try a couple of other methods until you've perfected the recipe; analogy here referring to iteratively building descriptive (unsupervised) or predictive (supervised) models. And just like in the show Master Chef you often end up competing with other data scientists in developing the best possible recipe, or in this case the best model[@fa18-523-66-Discovering-datascience].
 
