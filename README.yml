@@ -1,17 +1,17 @@
 ---
 owner:
-       firstname : "Ritu"
-       lastname : "Sanjay"
-       hid : "fa18-523-66"
-       community : "i523"
+  firstname : "Ritu"
+  lastname : "Sanjay"
+  hid : "fa18-523-66"
+  community : "i523"
 technologies:
-    - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/apache-derby.md
-    - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/r.md
-    - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/snort.md
-    - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/taverna.md
+  - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/apache-derby.md
+  - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/r.md
+  - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/snort.md
+  - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/taverna.md
 paper:
-    - title: SAS Viya
-      url: https://github.com/cloudmesh-community/fa18-523-66/blob/master/paper/paper.md      
+  - title: SAS Viya
+    url: https://github.com/cloudmesh-community/fa18-523-66/blob/master/paper/paper.md      
 project:
-    - title: "Do I buy or sell?" - Using Big Data to predict Stock Prices
-      url: https://github.com/cloudmesh-community/fa18-523-66/blob/master/project-report/project.md
+  - title: "Do I buy or sell? - Using Big Data to predict Stock Prices"
+    url: https://github.com/cloudmesh-community/fa18-523-66/blob/master/project-report/project.md
