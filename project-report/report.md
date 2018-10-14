@@ -16,7 +16,7 @@
 
 Keywords:
 
-Stock prediction, SciPy, Python, Regression analysis, Classification, Quandl, Unsupervised Learning, Dow Jones
+Stock prediction, SciPy, Numpy, Pandas, Python, Regression analysis, Classification, Quandl, Unsupervised Learning, Dow Jones
 
 ---
 
