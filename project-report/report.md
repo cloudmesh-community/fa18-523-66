@@ -1,10 +1,15 @@
 # "Buy, sell or hold?" - Using Big Data to predict Stock Prices  :hand:  fa18-523-66
 
 | Ritu Susan Sanjay   
+
 |  rssanjay@iu.edu
+
 | Indiana University, Bloomington
+
 | hid : fa18-523-66
+
 | github : https://github.com/cloudmesh-community/fa18-523-66/blob/master/project-report/report.md
+
 | code : https://github.com/cloudmesh-community/fa18-523-66/tree/master/project-code
 
 Keywords:
