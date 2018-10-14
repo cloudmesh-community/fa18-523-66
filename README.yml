@@ -3,7 +3,8 @@ owner:
   firstname : "Ritu"
   lastname : "Sanjay"
   hid : "fa18-523-66"
-  community : "i523"
+  community : i523
+   semester: fa18
 technologies:
   - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/apache-derby.md
   - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/r.md
