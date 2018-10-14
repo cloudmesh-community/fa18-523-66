@@ -12,7 +12,9 @@ technologies:
   - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/taverna.md
 paper:
   - title: SAS Viya
+    keyword: SAS Viya
     url: https://github.com/cloudmesh-community/fa18-523-66/blob/master/paper/paper.md      
 project:
   - title: "Do I buy or sell? - Using Big Data to predict Stock Prices"
+    keyword: Stock
     url: https://github.com/cloudmesh-community/fa18-523-66/blob/master/project-report/project.md
