@@ -14,19 +14,19 @@
 
 ---
 
-Keywords:
+Keywords
 
 Stock prediction, SciPy, Numpy, Pandas, Python, Regression analysis, Classification, Quandl, Unsupervised Learning, Dow Jones
 
 ---
 
 
-## Abstract:
+## Abstract
 
 Big data is everywhere. Newspapers and magazines are teeming with details on how Company A implemented the perfect business plan or how XYZ pharmaceuticals developed the drug to reverse some previously uncurable disease. Better still is the internet with more resources to utilize big data. Numerous copies of books have been published on this topic and Forbes rates big data related jobs as the most desirable. Every single industry today has finally turned its attentions to better understanding how to use data to serve customers better and reap profits. In light of this, there are two industries which have the most to benefit from data science : a) the finance and investment industry and b) the medical industry. This paper focuses on how big data can be used to predict stock the rise and fall in stock prices. 
 
 
-## Introduction:
+## Introduction
 
 The financial sector is deemed to be one of the largest producers of data - roughly 2.5 quantillion bytes everyday[@fa18-523-66-world-data]. However, many reports state how the investment sector could always make better use of their massive databank. Analytics
 has been widely adopted in the financial services industry and has helped traders make better decisions and thus see more
@@ -35,27 +35,27 @@ mathematical formulas to help investors maximize the returns in their investment
 
 On this note, it is then necessary to state that the stock prediction can be a very tempting prospect for most data scientists. The financial market has a very short feedback cycle and hence quick validation of predictions is possible. However, it is extremely difficult to develop a model that can provide higher levels of accuracy in most of its predictions. It is very much possible that the model developed would make predictions for a maximum of one day after which you might have to revamp it all over again [@fa18-523-66-python-stock-pred]. Nonetheless, this paper will attempt to develop a model that predicts the trends for stock prices over time.
 
-## Dataset:
+## Dataset
 
 1) Quandl
 2) Yahoo finance
 
-## Design:
+## Design
 
 TBD
 
-## Benchmark:
+## Benchmark
 
 TBD
 
-## Conclusion:
+## Conclusion
 
 TBD
 
-## Acknowledgements:
+## Acknowledgements
 
 The author would like to thank professor Dr. Geoffrey C. Fox, Dr. Gregor von Laszewski for providing the opportunity to embark on this project. This project would not be possible without the guidance and input sfrom the entire piazza team.
 
-## References:
+## References
 
 All references can be found in the file report.bib
