@@ -1,8 +1,20 @@
 # SAS Viya  :hand:
 
-Ritu Susan Sanjay
+| Ritu Susan Sanjay   
 
-HID : fa18-523-66
+|  rssanjay@iu.edu
+
+| Indiana University, Bloomington
+
+| hid : fa18-523-66
+
+| github : https://github.com/cloudmesh-community/fa18-523-66/blob/master/project-report/report.md
+
+---
+
+Keywords: SAS Viya, Data Mining, Cloud Analytic Services
+
+---
 
 ## Abstract
 
