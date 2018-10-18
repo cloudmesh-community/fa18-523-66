@@ -8,7 +8,7 @@
 
 | hid : fa18-523-66
 
-| github : https://github.com/cloudmesh-community/fa18-523-66/blob/master/project-report/report.md
+| github : https://github.com/cloudmesh-community/fa18-523-66/blob/master/paper/paper.md
 
 ---
 
