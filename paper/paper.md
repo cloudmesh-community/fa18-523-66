@@ -1,10 +1,10 @@
 # SAS Viya  :hand: fa18-523-66
 
-| Ritu Susan Sanjay   
+| Ritu Susan Sanjay
 | rssanjay@iu.edu
 | Indiana University, Bloomington
 | hid : fa18-523-66
-| github : https://github.com/cloudmesh-community/fa18-523-66/blob/master/paper/paper.md
+| github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-66/blob/master/paper/paper.md)
 
 ---
 
