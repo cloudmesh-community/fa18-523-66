@@ -3,3 +3,4 @@
 * getTodayStats.py
 * getHistoricData.py
 * getSummaryReport.py
+* PredictDowIndex_1.py
