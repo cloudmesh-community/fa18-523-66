@@ -4,6 +4,7 @@
 * getHistoricData.py
 * getSummaryReport.py
 * PredictDowIndex_1.py
+* PredictDowIndex_2.py
 
 
 
