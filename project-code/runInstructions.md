@@ -4,3 +4,9 @@
 * getHistoricData.py
 * getSummaryReport.py
 * PredictDowIndex_1.py
+
+
+
+
+--foll. features to be included in the project:
+   * let the file which stores the historical data be appended every day
