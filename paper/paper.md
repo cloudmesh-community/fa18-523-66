@@ -33,7 +33,9 @@ SAS Viya emphasises a unified experience for data scientists and analysts alike.
 
 SAS Viya 3.4 gives data scientists access to the following components:
 
-1) SAS Viya
+1) SAS Viya:
+
+
 2) SAS Studio
 3) SAS Cloud Analytic Services
 4) SAS Visual Analytics
@@ -46,7 +48,7 @@ SAS Viya 3.4 gives data scientists access to the following components:
 
 {// this section will include details of the components and how they can be utilized}
 
-## Installation
+## Deployment
 
 TBD
 
