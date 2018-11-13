@@ -33,20 +33,27 @@ SAS Viya emphasises a unified experience for data scientists and analysts alike.
 
 SAS Viya 3.4 gives data scientists access to the following components:
 
-1) SAS Viya:
+1) SAS Studio:
 
 
-2) SAS Studio
-3) SAS Cloud Analytic Services
-4) SAS Visual Analytics
-5) SAS VIsual Statistics
-6) SAS Visual Data Mining and Machine Learning
-7) SAS Econometrics
-8) SAS Visual Forecasting
-9) SAS Visual Text Analytics
-10) SAS Optimization
+2) SAS Cloud Analytic Services:
+SAS CAS is a platform for distributed and high-performance computing with a cloud-based RE. The many features of CAS include data sharing between sessions, security, and fault tolerance (i.e. allowing a node to fail without data loss). CAS was designed to operate fully on-cloud, either as a single host or on a cluster (private or public). [@article-SAS-CAS-paper]
 
-{// this section will include details of the components and how they can be utilized}
+3) SAS Visual Analytics:
+
+4) SAS VIsual Statistics:
+
+5) SAS Visual Data Mining and Machine Learning:
+
+6) SAS Econometrics:
+
+7) SAS Visual Forecasting:
+
+8) SAS Visual Text Analytics:
+
+9) SAS Optimization:
+
+
 
 ## Deployment
 
