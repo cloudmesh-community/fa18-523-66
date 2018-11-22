@@ -95,7 +95,7 @@ also differs from a full deployment.
 
 ### System Requirements:
  
-The hardware requirements for a programming only and a full deployment differ. When determining the specifications of the host, three components are to be kept in mind: CAS server,programming runtime and the service layer.[pg 6-8]
+It is first necessary to understand the difference beyween the two deployment types: full deployment and programming-only deployment. The full deployment includes all the features SAS Viya has to offer and is usually the default mode. However, it is also possible to deploy only a subset of the features; the programming-only deployment excludes the SAS Drive [@SAS-Drive] and a number of the graphical features [@http://documentation.sas.com/docsetId=calchkcfg&docsetTarget=n00004saschecklist0000config.htm&docsetVersion=3.4&locale=en#n00001saschecklist0000config]. The hardware requirements for a programming only and a full deployment differ. When determining the specifications of the host, three components are to be kept in mind: CAS server,programming runtime and the service layer.[pg 6-8]
 
  1) CAS Server : The amount of RAM that is required for the CAS Server is determined by the amount of data that is processed, and by the level of user activity in the environment. However, out of the box, the amount of RAM that is required to start the CAS Server is less than 1 GB.
 
