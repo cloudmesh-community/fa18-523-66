@@ -1,4 +1,4 @@
-# SAS Viya  :hand: fa18-523-66
+# SAS Viya  :wave: :exclamation: fa18-523-66
 
 | Ritu Susan Sanjay
 | rssanjay@iu.edu
@@ -6,7 +6,14 @@
 | hid : fa18-523-66
 | github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-66/blob/master/paper/paper.md)
 
-* :o: this is a draft, review has not been started due to this
+* :o: this is incomplete and we could not complet eour review due to that reason
+
+* :o: abstract needs to be merged into introduction, paper is to short to justify abstract
+
+* :o: conclusion needs to be merged into introduction, paper is to short to justify abstract
+
+* :o: please use proper itemized and numbered list, pleas look at markdown guides.
+
 
 ---
 
@@ -19,7 +26,8 @@ Keywords: SAS Viya, Data Mining, Cloud Analytic Services
 Data Science - quite  a difficult term to technically define. However, the demand for data scientists is at an all time high. At the simplest level, it is the art of making sense from the never-ending sea of data - simple as that. To better unserstand this, we can think of developing a data mining model analogous to making a dish. You first scrape together the ingredients; this is our raw data. To improve the taste, you add a pinch of salt and other seasonings or spices; this is the creation of new predictor variables. Finally, you mix it all up together, and have  a taste. If it doesn't taste right, you might want to try a couple of other methods until you've perfected the recipe; analogy here referring to iteratively building descriptive (unsupervised) or predictive (supervised) models. And just like in the show Master Chef you often end up competing with other data scientists in developing the best possible recipe, or in this case the best model [@fa18-523-66-Discovering-datascience].
 
 In the above example, just as how the chef needs his sharp knives, a data scientist needs the right tool. The top rated software being python, spark, R, Matlab to name a few. SAS Viya is the latest enhancement of the SAS platform. It is designed to address the new, and increasingly diverse, needs of organizations with methods, access, and deployment that scale to meet burgeoning analytics use cases. In the words of its developers:
->"SAS Viya addresses the complex analytical challenges of today, and effortlessly scales to meet your future needs, with cloud-enabled, elastic in-memory processing, in a high availability, multi-user environment [@fa18-523-66-SASViya-Special-Collection-5]".
+
+> "SAS Viya addresses the complex analytical challenges of today, and effortlessly scales to meet your future needs, with cloud-enabled, elastic in-memory processing, in a high availability, multi-user environment [@fa18-523-66-SASViya-Special-Collection-5]".
 
 ## Introduction
 
