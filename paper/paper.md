@@ -77,7 +77,31 @@ SAS CAS is a platform for distributed and high-performance computing with a clou
 
 ## Deployment
 
-TBD
+SAS Viya has undergone rigorous performance testing with various hardware combinations. In addition to being tested on high-performing Intel Xeon E3-E7 series microprocessors, 
+SAS Viya has also been tested with newer Intel chips, such as Intel Xeon Scalable Processors. SAS Viya also supports 64-bit AMD chipsets. Thirty-two-bit chipsets are not supported.[pg 6-8]
+
+It is necessary to note that a seperete independent host is needed if SAS 9.4 exists on the system (co-installation is not possible). Also, if the existing SAS software on the system 
+is SAS 9.3, note that many of the features on SAS 9.3 are not supported if the Java version has been updated to Java 8 or plus. The hardware requirements for a programming only environment
+also differs from a full deployment.
+
+
+### System Requirements:
+ 
+The hardware requirements for a programming only and a full deployment differ. When determining the specifications of the host, three components are to be kept in mind: CAS server,programming runtime and the service layer.[pg 6-8]
+
+ 1) CAS Server : The amount of RAM that is required for the CAS Server is determined by the amount of data that is processed, and by the level of user activity in the environment. However, out of the box, the amount of RAM that is required to start the CAS Server is less than 1 GB.
+
+ 2) Programming Runtime : The number of CPU cores that are required for the Programming Runtime depends on your specific license. If your CAS license is for N cores, you are also entitled to run the Programming Runtime on the samenumber of cores. However, the minimum requirement is 2 cores. SAS recommends that you allocate at least 4 cores for optimal performance. The minimum required amount of RAM for the Programming Runtime is 4 GB.
+
+ 3) Service Layer : This category consists of components that are required for a full deployment, as well as services that support specific SAS products. They include the Core Services host  group and all the other services that support SAS Viya analytics processing.
+
+### Installation:
+
+The first step in the installation involves setting up the accounts. The user account for both the CAS as well as the postgreSQL requires the SAS credentials to be specified. Instructions on how to set this up is extensively detailed in the setup manual (the link to the latest version of the same is provided at the end of this section). If the user seeks to set up the full deployment, then changes may be made to modify the postgreSQL settings to specify personal ports and directories. Further to this, the CAS Server Monitor port may also be changed along with modifications to the kerberos [@kerberos] settings. The final step after the configuration files have been modified is to simply run the SAS Viya setup batch file through the command prompt folling the regular intructions. [@pg 29-37]
+
+After completing the installation of SAS Viya,it is necessary to configure the connection to your identity provider before your users can access SAS Environment Manager and SAS Visual Analytics. The final step then remains to create a backup configuration [@pg 39-50]. Note that this is also different depending on the type of deployment (i.e. programming-only or full deployment). 
+
+The latest version of the deployment guide may be accessed at : https://support.sas.com/en/documentation/install-center/viya/deployment-guides.html 
 
 ## Example
 
