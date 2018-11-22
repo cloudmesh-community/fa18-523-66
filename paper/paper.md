@@ -52,26 +52,26 @@ SAS Viya emphasises a unified experience for data scientists and analysts alike.
 
 SAS Viya 3.4 gives data scientists access to the following components:
 
-1) SAS Studio:
+#### 1) SAS Studio:
 In the simplest of words, SAS Studio is an editor designed for both expert and novice programmers to write and execute SAS code in an assisted environment. Users are provided with a single interface to access all data files, programs and libraries (user-defined and in-built). The SAS studio is extremely convinient: there is no local installation involved i.e. once the software is installed you just provide the users with the url to access the software. This centralizes and simplifies regular maintenance. Other features range from
 (data) table analyzer, sql engine, code snippet library prompts from frequently executed codes, report generation and export in multiple formats including pdf and xml. One important feature to be noted is that the studio interface is consistant, regardless of where and how the software runs; as the IT infrasturcture is modified, the SAS Studio environment is the same. [@article-SAS-Studio]
 
-2) SAS Cloud Analytic Services:
+#### 2) SAS Cloud Analytic Services:
 SAS CAS is a platform for distributed and high-performance computing with a cloud-based RE. The many features of CAS include data sharing between sessions, security, and fault tolerance (i.e. allowing a node to fail without data loss). CAS was designed to operate fully on-cloud, either as a single host or on a cluster (private or public). [@article-SAS-CAS-paper]
 
-3) SAS Visual Analytics:
+#### 3) SAS Visual Analytics:
 
-4) SAS VIsual Statistics:
+#### 4) SAS VIsual Statistics:
 
-5) SAS Visual Data Mining and Machine Learning:
+#### 5) SAS Visual Data Mining and Machine Learning:
 
-6) SAS Econometrics:
+#### 6) SAS Econometrics:
 
-7) SAS Visual Forecasting:
+#### 7) SAS Visual Forecasting:
 
-8) SAS Visual Text Analytics:
+#### 8) SAS Visual Text Analytics:
 
-9) SAS Optimization:
+#### 9) SAS Optimization:
 
 
 
