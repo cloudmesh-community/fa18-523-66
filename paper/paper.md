@@ -57,7 +57,16 @@ In the simplest of words, SAS Studio is an editor designed for both expert and n
 (data) table analyzer, sql engine, code snippet library prompts from frequently executed codes, report generation and export in multiple formats including pdf and xml. One important feature to be noted is that the studio interface is consistant, regardless of where and how the software runs; as the IT infrasturcture is modified, the SAS Studio environment is the same. [@article-SAS-Studio]
 
 #### 2) SAS Cloud Analytic Services:
-SAS CAS is a platform for distributed and high-performance computing with a cloud-based RE. The many features of CAS include data sharing between sessions, security, and fault tolerance (i.e. allowing a node to fail without data loss). CAS was designed to operate fully on-cloud, either as a single host or on a cluster (private or public). [@article-SAS-CAS-paper]
+
+"CAS goals are to provide an analytics service with a public API accessible by many clients supported by SAS or open-source clients using plug-in modules from SAS. [@article-SAS-CAS-10to18]"
+
+SAS CAS is a platform for distributed and high-performance computing with a cloud-based RE. The many features of CAS include data sharing between sessions, security, and fault tolerance (i.e. allowing a node to fail without data loss). CAS was designed to operate fully on-cloud, either as a single host or on a cluster (private or public). CAS uses sessions to track users and offers a full Security interface to protect data at the file level, as well as the column level. The sessions provide isolation for the user, which protects 
+the integrity of the server.The purpose of connecting to CAS is to execute server requests. A user must create a session to submit a request. The user can connect to the server either through a HTTP_based REST interface or through a ProtoBUF-based binary interface. The user must be authenticated by CAS in order to a create session. [@article-SAS-CAS-1to3]
+
+The most import aspect of CAS is that all data is stored in the form of tables. These tables may be streamed from a  database into the server , ESP stream or loaded from disk. Data (including metadata) in CAS is all stored and accessed through the CASLIB. The caslib is basically a container that usually has one or more instances of the CAS tables. [@article-SAS-CAS-4to9]
+
+Like all cloud services, SAS Viya too concentrates on fault tolerance. Node failure is inevitable when dealing with multiple number of nodes are implemented in a system. Data is replicated across the cluster, in order to retrieve data in case one of the worker nodes fail. The new system has been dubbed the GCCOMM. The subsystem can detect failure in nodes; the controllers and workers can  reconfigure the system, thus restarting the action and allowing the remaining worker nodes to access lost data from the redundant blocks. [@article-SAS-CAS-4to9]
+
 
 #### 3) SAS Visual Analytics:
 
