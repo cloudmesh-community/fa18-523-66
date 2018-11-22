@@ -5,7 +5,7 @@
 | Indiana University, Bloomington
 | hid : fa18-523-66
 | github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-58/blob/master/project-report/report.md)
-| :o: code: https://github.com/cloudmesh-community/fa18-523-66/tree/master/project-code
+| code: https://github.com/cloudmesh-community/fa18-523-66/tree/master/project-code
 
 ---
 
@@ -15,6 +15,7 @@ Stock prediction, SciPy, Numpy, Pandas, Python, Regression analysis, Classificat
 
 ---
 
+:o: redame in project code missing, can not be replicated
 
 ## Abstract
 
