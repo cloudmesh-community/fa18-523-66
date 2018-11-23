@@ -75,6 +75,11 @@ In the simplest of words, SAS Studio is an editor designed for both expert and n
 ### SAS Visual Data Mining and Machine Learning:
 
 ### SAS Econometrics:
+> "SAS Econometrics supports a range of econometric model types with a single framework. It’s fully integrated with all of the 
+> contributing analytics that coincide with econometrics, and with data preparation, exploration, presentation and reporting 
+> capabilities in SAS that are essential to successful econometric analysis." [@article-SAS-Econometrics]
+
+The in-memory analytics feature of SAS Viya ensures that iterative and repetitive tasks can be run quickly without re-loading data. The software also provides a wide-range of tools for modelling business scenarios. Simulations and forecasting techniques can be easily implemented as the software makes use of the SAS VIya Engine, ensuring high-availability and the ability to code using open-source languages. [@article-SAS-Econometrics]
 
 ### SAS Visual Forecasting:
 > "SAS Visual Forecasting provides a resilient, distributed and optimized generic time series analysis scripting environment for cloud 
