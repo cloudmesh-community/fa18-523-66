@@ -1,4 +1,4 @@
-# SAS Viya  :wave: :exclamation: fa18-523-66
+# SAS Viya  :hand: fa18-523-66
 
 | Ritu Susan Sanjay
 
@@ -13,7 +13,7 @@
 
 ---
 
-Keywords: SAS Viya, Data Mining, Cloud Analytic Services
+Keywords: SAS Viya, Data Mining, Cloud Analytic Services, Analytics
 
 ---
 
@@ -59,7 +59,10 @@ In the simplest of words, SAS Studio is an editor designed for both expert and n
 Popular analytic tools include - goal seeking and scenario analysis, automated forecasting, decision trees, text analytics and network diagrams. [@article-SAS-Visual-Analytics]
 
 ### SAS VIsual Statistics:
+> "It provides a drag-and-drop web browser interface that empowers multiple users to explore massive data, and then interactively and 
+> iteratively create descriptive and predictive models". [@article-SAS-Visual-Statistics]
 
+Statisticians are most often faced with the challenge of vhoosing the right model that fits the data. As the amont of data to be analyzed keeps increasing, this can prove to be a very time-consuming task. SAS Visual Statistics allows users to generate reports that detail model comparision summaries, misclassification tables and ROC charts. The software includes an interactive slider that manipulates thresholds preset by the user. [@article-SAS-Visual-Statistics]
 
 ### SAS Visual Data Mining and Machine Learning:
 > "In addition to innovative machine learning and deep learning techniques for analyzing structured and unstructured data, it integrates > all other tasks in your analytical processes. From data preparation and exploration to model development and deployment, multiple 
