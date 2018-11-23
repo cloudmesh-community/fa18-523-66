@@ -56,7 +56,7 @@ In the simplest of words, SAS Studio is an editor designed for both expert and n
 > capabilities are combined with out-of-the-box advanced analytics to enable users to  discover insights from any size and type of data > including text." [@article-SAS-Visual-Analytics]
 Popular analytic tools include - goal seeking and scenario analysis, automated forecasting, decision trees, text analytics and network diagrams. [@article-SAS-Visual-Analytics]
 
-### SAS VIsual Statistics:
+### SAS Visual Statistics:
 > "It provides a drag-and-drop web browser interface that empowers multiple users to explore massive data, and then interactively and 
 > iteratively create descriptive and predictive models". [@article-SAS-Visual-Statistics]
 
