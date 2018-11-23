@@ -76,9 +76,11 @@ In the simplest of words, SAS Studio is an editor designed for both expert and n
 #### 6) SAS Econometrics:
 
 #### 7) SAS Visual Forecasting:
-> "SAS Visual Forecasting provides a resilient, distributed and optimized generic time series analysis scripting environment for cloud computing." [@article-SAS-Visual-Forecasting]
-> "Users can range from analysts responsible for the creation of the forecasts to the managers and directors responsible for overseeing the forecasting and planning processes." 
-[@article-SAS-Visual-Forecasting]
+> "SAS Visual Forecasting provides a resilient, distributed and optimized generic time series analysis scripting environment for cloud 
+> computing." [@article-SAS-Visual-Forecasting]
+
+> "Users can range from analysts responsible for the creation of the forecasts to the managers and directors responsible for overseeing > the forecasting and planning processes." [@article-SAS-Visual-Forecasting]
+
 The software itself recommends the most suitable model and additionally models are selected based not on how well they fit past data but on how well they can be used to predict the future. The interface allows for training and modelling data mining algorithms including neural networks. For example, the Multstage Forecasting node (for regression and time series included) creates a forecast combining signals obtained from different models. [@article-SAS-Visual-Forecasting]
 
 #### 8) SAS Visual Text Analytics:
