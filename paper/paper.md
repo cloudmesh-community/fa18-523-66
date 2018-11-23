@@ -1,4 +1,4 @@
-# SAS Viya  :hand: fa18-523-66
+# SAS Viya  :hand: fa18-523-66 (under editing)
 
 | Ritu Susan Sanjay
 
@@ -17,15 +17,13 @@ Keywords: SAS Viya, Data Mining, Cloud Analytic Services, Analytics
 
 ---
 
-## Abstract
+## Introduction
 
 Data Science - quite  a difficult term to technically define. However, the demand for data scientists is at an all time high. At the simplest level, it is the art of making sense from the never-ending sea of data - simple as that. To better unserstand this, we can think of developing a data mining model analogous to making a dish. You first scrape together the ingredients; this is our raw data. To improve the taste, you add a pinch of salt and other seasonings or spices; this is the creation of new predictor variables. Finally, you mix it all up together, and have  a taste. If it doesn't taste right, you might want to try a couple of other methods until you've perfected the recipe; analogy here referring to iteratively building descriptive (unsupervised) or predictive (supervised) models. And just like in the show Master Chef you often end up competing with other data scientists in developing the best possible recipe, or in this case the best model [@fa18-523-66-Discovering-datascience].
 
 In the above example, just as how the chef needs his sharp knives, a data scientist needs the right tool. The top rated software being python, spark, R, Matlab to name a few. SAS Viya is the latest enhancement of the SAS platform. It is designed to address the new, and increasingly diverse, needs of organizations with methods, access, and deployment that scale to meet burgeoning analytics use cases. In the words of its developers:
 
 > "SAS Viya addresses the complex analytical challenges of today, and effortlessly scales to meet your future needs, with cloud-enabled, elastic in-memory processing, in a high availability, multi-user environment [@fa18-523-66-SASViya-Special-Collection-5]".
-
-## Introduction
 
 SAS 9 brought with it a brilliant server-client web service model, all processes goverened by a resilient metadata server. It appeared to be the perfect platform for analytics, albeit a bit expensive. However, the advent of cloud computing blew the whole tech industry out of proportion. "SAS Viya brings a more resilient, elastic, unified, and accessible architecture, which leverages cloud-friendly microservices and a next generation analytics run-time engine [@fa18-523-66-SASViya-Special-Collection-1]". Thanks to its powerful and scalable capabilities, SAS Viya adds an additional value to the existing SAS deployment.
 
