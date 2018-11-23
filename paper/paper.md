@@ -50,6 +50,10 @@ In the simplest of words, SAS Studio is an editor designed for both expert and n
 (data) table analyzer, sql engine, code snippet library prompts from frequently executed codes, report generation and export in multiple formats including pdf and xml. One important feature to be noted is that the studio interface is consistant, regardless of where and how the software runs; as the IT infrasturcture is modified, the SAS Studio environment is the same. [@article-SAS-Studio]
 
 ### SAS Visual Analytics:
+> "SAS Visual Analytics provides a complete platform for analytics visualization and interactive selfservice BI and reporting 
+> capabilities are combined with out-of-the-box advanced analytics to enable users to  discover insights from any size and type of data > including text." [@article-SAS-Visual-Analytics]
+Popular analytic tools include - goal seeking and scenario analysis, automated forecasting, decision trees, text analytics and network diagrams. [@article-SAS-Visual-Analytics]
+
 
 ### SAS VIsual Statistics:
 
