@@ -54,7 +54,8 @@ SAS Viya 3.4 gives data scientists access to the following components:
 
 #### 1) SAS Cloud Analytic Services:
 
-"CAS goals are to provide an analytics service with a public API accessible by many clients supported by SAS or open-source clients using plug-in modules from SAS. [@article-SAS-CAS-10to18]"
+> "CAS goals are to provide an analytics service with a public API accessible by many clients supported by SAS or open-source clients 
+> using plug-in modules from SAS. [@article-SAS-CAS-10to18]"
 
 SAS CAS is a platform for distributed and high-performance computing with a cloud-based RE. The many features of CAS include data sharing between sessions, security, and fault tolerance (i.e. allowing a node to fail without data loss). CAS was designed to operate fully on-cloud, either as a single host or on a cluster (private or public). CAS uses sessions to track users and offers a full Security interface to protect data at the file level, as well as the column level. The sessions provide isolation for the user, which protects 
 the integrity of the server.The purpose of connecting to CAS is to execute server requests. A user must create a session to submit a request. The user can connect to the server either through a HTTP_based REST interface or through a ProtoBUF-based binary interface. The user must be authenticated by CAS in order to a create session. [@article-SAS-CAS-1to3]
