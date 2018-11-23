@@ -54,10 +54,15 @@ In the simplest of words, SAS Studio is an editor designed for both expert and n
 > capabilities are combined with out-of-the-box advanced analytics to enable users to  discover insights from any size and type of data > including text." [@article-SAS-Visual-Analytics]
 Popular analytic tools include - goal seeking and scenario analysis, automated forecasting, decision trees, text analytics and network diagrams. [@article-SAS-Visual-Analytics]
 
-
 ### SAS VIsual Statistics:
 
+
 ### SAS Visual Data Mining and Machine Learning:
+> "In addition to innovative machine learning and deep learning techniques for analyzing structured and unstructured data, it integrates > all other tasks in your analytical processes. From data preparation and exploration to model development and deployment, multiple 
+> personas work in the same, integrated environment". [@article-SAS-Visual-DM-ML]
+
+The software allows multiple users to concurrently analyze data (structured or unstructured) with the Model Studio. Every project can be subdidvided using visual pipelines, displayed in a logical sequence. The SAS Visual Data Mining and Machine Learning boasts of a significantly reduced runtime, owing to the multicore architecture. Popular models included in the software are:
+gradient boosting, SVMs, neural networks, Gausian models, bayesian networks among others. [@article-SAS-Visual-DM-ML]
 
 ### SAS Econometrics:
 > "SAS Econometrics supports a range of econometric model types with a single framework. It’s fully integrated with all of the 
