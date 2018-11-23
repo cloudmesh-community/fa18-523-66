@@ -123,7 +123,7 @@ The first step in the installation involves setting up the accounts. The user ac
 
 After completing the installation of SAS Viya,it is necessary to configure the connection to your identity provider before your users can access SAS Environment Manager and SAS Visual Analytics. The final step then remains to create a backup configuration [@pg 39-50]. Note that this is also different depending on the type of deployment (i.e. programming-only or full deployment). 
 
-The latest version of the deployment guide may be accessed at :  [:cloud:](https://support.sas.com/en/documentation/install-center/viya/deployment-guides.html)
+The latest version of the deployment guide may be accessed at : SAS Viya Deployment Guide [:cloud:](https://support.sas.com/en/documentation/install-center/viya/deployment-guides.html)
 
 ## Example
 
