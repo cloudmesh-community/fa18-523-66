@@ -137,9 +137,21 @@ This section consists of an example detailing how easy it is to create a model i
 
 Step 1: Start up the SAS Viya Service
 
+![SAS Viya Start Page [@image-viyaStartpage]](images/SASViya_startpage.JPG)
+
+
 Step 2: Import data
+
+![SAS Viya Import Data [@image-viyaImportData]](images/sasViya_importData.JPG)
+
 Step 3: Add model object i.e. linear regression object
+
+![SAS Viya Add Data Object [@image-viyaAddDataObject]](images/sasViya_addObject.JPG)
+
 Step 4: Specify roles on the right options panel
+
+![SAS Viya Add Variable Roles [@image-viyaAddVarRoles]](images/sasViya_addRoles.JPG)
+
 Step 5: Modify parameters if necessary to improve model
 
 
