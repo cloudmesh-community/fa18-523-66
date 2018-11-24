@@ -1,4 +1,4 @@
-# SAS Viya  :hand: fa18-523-66 (still editing....)
+# SAS Viya  :smiley: fa18-523-66 
 
 | Ritu Susan Sanjay
 
@@ -25,7 +25,7 @@ The demand for data scientists is at an all time high. At the simplest level, it
 
 In the above example, just as how the chef needs his sharp knives, a data scientist needs the right tool. The top rated software being python, spark, R, Matlab to name a few. SAS Viya is the latest enhancement of the SAS platform. It is designed to address the new, and increasingly diverse, needs of organizations with methods, access, and deployment that scale to meet burgeoning analytics use cases. In the words of its developers:
 
-> "SAS Viya addresses the complex analytical challenges of today, and effortlessly scales to meet your future needs, with cloud-enabled, > elastic in-memory processing, in a high availability, multi-user environment" [article-SASViya-Special-Collection-5].
+> "SAS Viya addresses the complex analytical challenges of today, and effortlessly scales to meet your future needs, with cloud-enabled, > elastic in-memory processing, in a high availability, multi-user environment" [@article-SASViya-Special-Collection-5].
 
 SAS 9 brought with it a user-friendly server-client web service model, all processes goverened by a resilient metadata server. It was one of the more popular platform for analytics, albeit a bit expensive, and hence was usually preferred by organizations willing to invest in analytic platforms rather than self-financed analysts. However, the advent of cloud computing blew the whole tech industry out of proportion. 
 
