@@ -173,4 +173,4 @@ The model can then be interpreted using measures like the adjusted r-square, tha
 
 "Data is no longer considered to be static or stale" [@book-big-data-schonberger-pg5].
 
-Today data is the raw material generated and consumed by businesses, governments and scientific researchers. Given the right tools and the computing power, data can open up a whole new world of insights. SAS Viya is a tool among the many thousands that are offered today. The new cloud-based analytic software offered by SAS helps create well-defined models and generate results, giving way to new ideas. 
+Today data is the raw material generated and consumed by businesses, governments and scientific researchers. Given the right tools and the computing power, data can open up a whole new world of insights. The new cloud-based analytic software offered by SAS helps create well-defined models and generate results, giving way to new ideas.  However, SAS Viya is just one of the many tools among thousands offered today and choosing the right tool depends on the users' goals.
