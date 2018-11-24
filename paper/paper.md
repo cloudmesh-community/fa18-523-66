@@ -36,6 +36,9 @@ SAS Viya enables users to explore data deeper, using the latest innovations in i
 
 SAS Viya emphasises a unified experience for data scientists and analysts alike. The new cloud analytical platform, allows programmers to execute using laguages like Python, Java, and Lua. Furthermore, the platform also allows these codes to be written and executed on Jupyter notebooks. Obviously, SAS Viya offers something exciting for everyone [@fa18-523-66-SASViya-Special-Collection-3]. 
 
+![SAS Platform [@image-sasPlatform]](images/SASViya_ExtensionOfSASPlatform.JPG){#fig:SASPlatform}
+
+
 ## SAS Viya Components
 
 SAS Viya 3.4 gives data scientists access to the following components:
