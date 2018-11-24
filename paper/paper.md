@@ -19,9 +19,9 @@ Keywords: SAS Viya, Data Mining, Cloud Analytic Services, Analytics
 
 ## Introduction
 
-SAS Viya is an in-memory analytics engine, with cloud enables features, providing users with accurate, quick and most importantly reliable insights. The software provides features like authorship, full-versioning, change management and  a lineage viewer along with centralized admiistration enabling tracking of users, servers and job content. [@sas-viya-3.4]
+SAS Viya is an in-memory analytics engine, with cloud enables features, providing users with accurate, quick and most importantly reliable insights. The software provides features like authorship, full-versioning, change management and  a lineage viewer along with centralized admiistration enabling tracking of users, servers and job content. [@doc-sas-viya-3.4]
 
-The demand for data scientists is at an all time high. At the simplest level, it is the art of making sense from the never-ending sea of data - simple as that. To better unserstand this, we can think of developing a data mining model analogous to making a dish. You first scrape together the ingredients; this is our raw data. To improve the taste, you add a pinch of salt and other seasonings or spices; this is the creation of new predictor variables. Finally, you mix it all up together, and have  a taste. If it doesn't taste right, you might want to try a couple of other methods until you've perfected the recipe; analogy here referring to iteratively building descriptive (unsupervised) or predictive (supervised) models. And just like in the show Master Chef you often end up competing with other data scientists in developing the best possible recipe, or in this case the best model [@fa18-523-66-Discovering-datascience].
+The demand for data scientists is at an all time high. At the simplest level, it is the art of making sense from the never-ending sea of data - simple as that. To better unserstand this, we can think of developing a data mining model analogous to making a dish. You first scrape together the ingredients; this is our raw data. To improve the taste, you add a pinch of salt and other seasonings or spices; this is the creation of new predictor variables. Finally, you mix it all up together, and have  a taste. If it doesn't taste right, you might want to try a couple of other methods until you've perfected the recipe; analogy here referring to iteratively building descriptive (unsupervised) or predictive (supervised) models. And just like in the show Master Chef you often end up competing with other data scientists in developing the best possible recipe, or in this case the best model. [@article-SASViya-Special-Collection-5]
 
 In the above example, just as how the chef needs his sharp knives, a data scientist needs the right tool. The top rated software being python, spark, R, Matlab to name a few. SAS Viya is the latest enhancement of the SAS platform. It is designed to address the new, and increasingly diverse, needs of organizations with methods, access, and deployment that scale to meet burgeoning analytics use cases. In the words of its developers:
 
@@ -35,8 +35,9 @@ SAS 9 brought with it a user-friendly server-client web service model, all proce
 SAS Viya enables users to explore data deeper, using the latest innovations in in-memory analytics. The methods available to users is classified in two: Data Wrangling methods and Modeling methods. Data wrangling methods include binning, transformations, SQL, clustering etc., while modelling techniques include everything from regression to text mining to neural networks. One of the prime features of using SAS for these methods is its innate ability to run all above-mentioned methods in-memory and of course take advantage of the parallel processing infrastructure [@fa18-523-66-SASViya-Special-Collection-4].
 
 SAS Viya emphasises a unified experience for data scientists and analysts alike. The new cloud analytical platform, allows programmers to execute using open-source laguages like Python, Java, and Lua. Furthermore, the platform also allows these codes to be written and executed on Jupyter notebooks. Obviously, SAS Viya offers something exciting for everyone [@fa18-523-66-SASViya-Special-Collection-3]. 
++@fig:SASPlatform shows a detailed view of the SAS Viya 3.4 architecture.
 
-![SAS Platform [@image-sasPlatform]](images/SASViya_ExtensionOfSASPlatform.JPG)
+![SAS Platform [@image-sasPlatform]](images/SASViya_ExtensionOfSASPlatform.JPG){#fig:SASPlatform}
 
 
 ## SAS Viya Components
@@ -138,29 +139,36 @@ This section consists of an example detailing how easy it is to create a model i
 Step 1: Start up the SAS Viya Service
 
 SAS Viya starts up with a user friendly interface. The left panel details all about the data and the models that may be created and executed using the engine. While the right panel houses options for modifying or altering data variables and adjusting model parameters.
++@fig:StartPage shows a screenshot of the start menu.
 
-![SAS Viya Start Page [@image-viyaStartpage]](images/SASViya_startpage.JPG)
+![SAS Viya Start Page [@image-viyaStartpage]](images/SASViya_startpage.JPG){#fig:StartPage}
 
 
 Step 2: Import data
 
-![SAS Viya Import Data [@image-viyaImportData]](images/sasViya_importData.JPG)
++@fig:ImportData shows how datasets may be imported onto the SAS library.
+
+![SAS Viya Import Data [@image-viyaImportData]](images/sasViya_importData.JPG){#fig:ImportData}
 
 Step 3: Add model object i.e. linear regression object
 
-To create a linear regression model, all you have to so is drag and drop the desired object into the analysis screen. 
+To create a linear regression model, all you have to so is drag and drop the desired object into the analysis screen.
++@fig:ModelObject demonstrates how a model may be added.
 
-![SAS Viya Add Data Object [@image-viyaAddDataObject]](images/sasViya_addObject.JPG)
+![SAS Viya Add Data Object [@image-viyaAddDataObject]](images/sasViya_addObject.JPG){#fig:ModelObject}
 
 Step 4: Specify roles on the right options panel
 
-![SAS Viya Add Variable Roles [@image-viyaAddVarRoles]](images/sasViya_addRoles.JPG)
++@fig:SpecifyRoles demnstrates how roles and rules may be applied to the model.
+
+![SAS Viya Add Variable Roles [@image-viyaAddVarRoles]](images/sasViya_addRoles.JPG){#fig:SpecifyRoles}
 
 Step 5: Modify parameters if necessary to improve model
 
 The model can then be interpreted using measures like the adjusted r-square, that predicts approximately 21.5% of the variation in the variable. Looking at other measures like the F-statistic (very high) and p-value (very low)  implies that the model is statistically significant.
++@fig:Results displays the final result.
 
-![Linear Regression Results [@image-LinRegRes]](images/LinearRegResults.JPG)
+![Linear Regression Results [@image-LinRegRes]](images/LinearRegResults.JPG){#fig:Results}
 
 ## Conclusion
 
