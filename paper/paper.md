@@ -128,9 +128,17 @@ After completing the installation of SAS Viya,it is necessary to configure the c
 
 The latest version of the deployment guide may be accessed at : SAS Viya Deployment Guide [:cloud:](https://support.sas.com/en/documentation/install-center/viya/deployment-guides.html)
 
-## Example
+## Sample Illustration
 
-{// an example section detailing how the sas cloud may be used in big data analytics}
+This section consists of an example detailing how easy it is to create a model in SAS Viya. For the example, we consider a dataset consisting of the political opinion poll from the Annual National Election Survey, consucted once every four years. Thermometer measures are used in many surveys to rank opinions. These variables range from 0 (very cold, or unfavorable feeling) to 100 (very warm, favorable feeling). This example examines the multivariate relationship of the preference for the Democratic variable against current economy condition, religious attendence and how better off the respondant is compared to the previous year.
+
+Step 1: Start up the SAS Viya Service
+
+Step 2: Import data
+Step 3: Add model object i.e. linear regression object
+Step 4: Specify roles on the right options panel
+Step 5: Modify parameters if necessary to improve model
+
 
 ## Conclusion
 
