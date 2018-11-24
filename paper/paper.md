@@ -32,9 +32,9 @@ SAS 9 brought with it a user-friendly server-client web service model, all proce
 >"SAS Viya brings a more resilient, elastic, unified, and accessible architecture, which leverages cloud-friendly microservices and a 
 > next generation analytics run-time engine" [@fa18-523-66-SASViya-Special-Collection-1]. 
 
-SAS Viya enables users to explore data deeper, using the latest innovations in in-memory analytics. SAS is committed to delivering new, innovative data mining and machine learning algorithms that will scale to the size of your business, now and in the future". The methods available to users is classified in two: Data Wrangling methods and Modeling methods. Data wrangling methods include binning, transformations, SQL, clustering etc., while modelling techniques include everything from regression to text mining to neural networks. One of the prime features of using SAS for these methods is its innate ability to run all above-mentioned methods in-memory and of course take advantage of the parallel processing infrastructure [@fa18-523-66-SASViya-Special-Collection-4].
+SAS Viya enables users to explore data deeper, using the latest innovations in in-memory analytics. The methods available to users is classified in two: Data Wrangling methods and Modeling methods. Data wrangling methods include binning, transformations, SQL, clustering etc., while modelling techniques include everything from regression to text mining to neural networks. One of the prime features of using SAS for these methods is its innate ability to run all above-mentioned methods in-memory and of course take advantage of the parallel processing infrastructure [@fa18-523-66-SASViya-Special-Collection-4].
 
-SAS Viya emphasises a unified experience for data scientists and analysts alike. The new cloud analytical platform, allows programmers to execute using laguages like Python, Java, and Lua. Furthermore, the platform also allows these codes to be written and executed on Jupyter notebooks. Obviously, SAS Viya offers something exciting for everyone [@fa18-523-66-SASViya-Special-Collection-3]. 
+SAS Viya emphasises a unified experience for data scientists and analysts alike. The new cloud analytical platform, allows programmers to execute using open-source laguages like Python, Java, and Lua. Furthermore, the platform also allows these codes to be written and executed on Jupyter notebooks. Obviously, SAS Viya offers something exciting for everyone [@fa18-523-66-SASViya-Special-Collection-3]. 
 
 ![SAS Platform [@image-sasPlatform]](images/SASViya_ExtensionOfSASPlatform.JPG)
 
@@ -137,6 +137,8 @@ This section consists of an example detailing how easy it is to create a model i
 
 Step 1: Start up the SAS Viya Service
 
+SAS Viya starts up with a user friendly interface. The left panel details all about the data and the models that may be created and executed using the engine. While the right panel houses options for modifying or altering data variables and adjusting model parameters.
+
 ![SAS Viya Start Page [@image-viyaStartpage]](images/SASViya_startpage.JPG)
 
 
@@ -146,6 +148,8 @@ Step 2: Import data
 
 Step 3: Add model object i.e. linear regression object
 
+To create a linear regression model, all you have to so is drag and drop the desired object into the analysis screen. 
+
 ![SAS Viya Add Data Object [@image-viyaAddDataObject]](images/sasViya_addObject.JPG)
 
 Step 4: Specify roles on the right options panel
@@ -154,6 +158,9 @@ Step 4: Specify roles on the right options panel
 
 Step 5: Modify parameters if necessary to improve model
 
+The model can then be interpreted using measures like the adjusted r-square, that predicts approximately 21.5% of the variation in the variable. Looking at other measures like the F-statistic (very high) and p-value (very low)  implies that the model is statistically significant.
+
+![Linear Regression Results [@image-LinRegRes]](images/LinearRegResults.JPG)
 
 ## Conclusion
 
