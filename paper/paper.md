@@ -25,12 +25,12 @@ The demand for data scientists is at an all time high. At the simplest level, it
 
 In the above example, just as how the chef needs his sharp knives, a data scientist needs the right tool. The top rated software being python, spark, R, Matlab to name a few. SAS Viya is the latest enhancement of the SAS platform. It is designed to address the new, and increasingly diverse, needs of organizations with methods, access, and deployment that scale to meet burgeoning analytics use cases. In the words of its developers:
 
-> "SAS Viya addresses the complex analytical challenges of today, and effortlessly scales to meet your future needs, with cloud-enabled, > elastic in-memory processing, in a high availability, multi-user environment" [@article-SASViya-Special-Collection-5].
+> "SAS Viya addresses the complex analytical challenges of today, and effortlessly scales to meet your future needs, with cloud-enabled, >  elastic in-memory processing, in a high availability, multi-user environment" [@article-SASViya-Special-Collection-5].
 
 SAS 9 brought with it a user-friendly server-client web service model, all processes goverened by a resilient metadata server. It was one of the more popular platform for analytics, albeit a bit expensive, and hence was usually preferred by organizations willing to invest in analytic platforms rather than self-financed analysts. However, the advent of cloud computing blew the whole tech industry out of proportion. 
 
->"SAS Viya brings a more resilient, elastic, unified, and accessible architecture, which leverages cloud-friendly microservices and a 
-> next generation analytics run-time engine" [@article-SASViya-Special-Collection-1]. 
+> "SAS Viya brings a more resilient, elastic, unified, and accessible architecture, which leverages cloud-friendly microservices and a 
+>  next generation analytics run-time engine" [@article-SASViya-Special-Collection-1]. 
 
 SAS Viya enables users to explore data deeper, using the latest innovations in in-memory analytics. The methods available to users is classified in two: Data Wrangling methods and Modeling methods. Data wrangling methods include binning, transformations, SQL, clustering etc., while modelling techniques include everything from regression to text mining to neural networks. One of the prime features of using SAS for these methods is its innate ability to run all above-mentioned methods in-memory and of course take advantage of the parallel processing infrastructure [@article-SASViya-Special-Collection-4].
 
