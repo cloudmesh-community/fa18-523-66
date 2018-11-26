@@ -1,4 +1,4 @@
-# Buy, sell or hold? - Using Big Data to predict Stock Prices  :hand:  fa18-523-66
+# Buy, sell or hold? - Using Big Data to predict Stock Prices  :hand:  fa18-523-66 (...editing)
 
 | Ritu Susan Sanjay   
 |  rssanjay@iu.edu
