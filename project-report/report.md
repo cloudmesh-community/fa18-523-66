@@ -95,7 +95,13 @@ TBD
 
 ## Conclusion
 
+> "It was not at all what the experts predicted. most of them did not forsee that an economic powerhouse could suffer so much damage in > such a short  period of time. They did not expect the fast-growing gross domestic product (GDP) to go so spectacularly into reverse, 
+> the real estate bubble to burst as violently as it did, and industrial production and capacity utilization to fall so steeply. Nor did > they expect the stock market to plunge so dramatically from ita all-time high- although it would recover some ground 
+> subsequently....But the real issue is not what has happened, but what happens net" [@book-accelerating -out-of-the-great-recession].
 
+The stock market is non-linear in nature, owing to which it is quite challenging to predict a trend with great accuracy [@that last tab opened]. Nevertheless, it has attracted one too many investors and analysts in attempting to predict its performance. This report presents the study in using data mining algorithms (Support Vector Machines and Logistic Regression) to predict whether a stock underperforms or outperforms the market. The imperfection in the results obtained via this project can be attributed to the change in political changes, current economical shifts and lastly the ever-changing investor prospects.
+
+For future work, there are quite a number of improvements to be made. For example, kafka can be used to stream real-time data from websites. Also, it would be interesting to implement neural networks to improve the efficiency of the prediction. Text mining social media feeds could be implemented to bring aspects of changes in economy, politics and current trends to the model.
 
 ## Acknowledgements
 
