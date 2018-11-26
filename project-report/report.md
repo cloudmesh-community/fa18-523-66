@@ -66,41 +66,7 @@ The historical data for the DJIA needs to be downloaded manually from yahoo fina
 * Volume - volume of traded stocks
 * Adj_Close - adjusted to include any influential corporate actions and distributions
 
-The final dataset required is the given day's data about the stock. This can be available in one of two ways: parsing the Yahoo Finance website for each stock or by parsing the CNN Business website for a complete summary table for all the stocks. Both methods are implemented via python scripts and the pandas toolkit. To parse the Yahoo Finance website for data, the first step involved is to download static files of the html pages (????this would reduce overhead). Then it is a simple case of parsing the HTML documents. The similar process can be followed to downloas the summary statistics from the CNN website. The variables in the dataset are as follows:
-totaldebttoequity = 
-pricepersale
-priceperbook
-                profitmargin
-                operatingmargin
-                returnonassets
-                returnonequity
-                revenuepershare
-                marketcap
-                enterprisevalue
-                forwardpbye
-                pegratio
-                enterprisevaluebyrevenue
-                enterprisevaluebyebitda
-                revenue
-                grossprofit
-                ebitda
-                netincomeavltocommon
-                dilutedeps
-                earningsgrowth
-                revenuegrowth
-                totalcash
-                totalcashpershare
-                totaldebt
-                currentratio
-                bookvaluepershare
-                cashflow
-                beta
-                heldbyinsiders
-                heldbyinstitutions
-                sharesshortasof
-                shortratio
-                shortpercentoffloat
-                sharesshortprior
+The final dataset required is the given day's data about the stock. This can be available in one of two ways: parsing the Yahoo Finance website for each stock or by parsing the CNN Business website for a complete summary table for all the stocks. Both methods are implemented via python scripts and the pandas toolkit. To parse the Yahoo Finance website for data, the first step involved is to download static files of the html pages (????this would reduce overhead). Then it is a simple case of parsing the HTML documents. The similar process can be followed to downloas the summary statistics from the CNN website.
 
 Note that it is also possible to download historical data from the  U.S. Securities and Exchange Commission (SEC) website if quandl is not preferred [@https://www.sec.gov/].
 
@@ -108,13 +74,13 @@ Note that it is also possible to download historical data from the  U.S. Securit
 
 The data is obtained and compiled with python scripts. R code is then used to mine this data. The goal of this project is to figure out whether a stock is underperforming or outperforming. This being a classification problem, logistic regression and support vector machine algorithms are used.
 
-#### svm
+#### Support Vector Machine
 
 > "The SVM learning problem can be formulated as a convex optimization problem, in which efficient algorithms are available to find the > global minimum of the objective function. SVM performs capacity control by maximizing the margin of the decision boundry. 
 > Nevertheless, the user must still provide other parameters such as the type of kernel function to use and the cost function C for 
 > introducing each slack variable" [@book-intro-data-mining].
 
-#### logistic regression 
+#### Logistic Regression
 
 > "Logistic regression is the appropriate regression analysis to conduct when the dependent variable is dichotomous (binary).  Like all > regression analyses, the logistic regression is a predictive analysis.  Logistic regression is used to describe data and to explain 
 > the relationship between one dependent binary variable and one or more nominal, ordinal, interval or ratio-level independent 
