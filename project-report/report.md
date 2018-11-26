@@ -66,7 +66,41 @@ The historical data for the DJIA needs to be downloaded manually from yahoo fina
 * Volume - volume of traded stocks
 * Adj_Close - adjusted to include any influential corporate actions and distributions
 
-The final dataset required is the given day's data about the stock. This can be available in one of two ways: parsing the Yahoo Finance website for each stock or by parsing the CNN Business website for a complete summary table for all the stocks. Both methods are implemented via python scripts and the pandas toolkit. To parse the Yahoo Finance website for data, the first step involved is to download static files of the html pages (????this would reduce overhead). Then it is a simple case of parsing the HTML documents. The similar process can be followed to downloas the summary statistics from the CNN website.
+The final dataset required is the given day's data about the stock. This can be available in one of two ways: parsing the Yahoo Finance website for each stock or by parsing the CNN Business website for a complete summary table for all the stocks. Both methods are implemented via python scripts and the pandas toolkit. To parse the Yahoo Finance website for data, the first step involved is to download static files of the html pages (????this would reduce overhead). Then it is a simple case of parsing the HTML documents. The similar process can be followed to downloas the summary statistics from the CNN website. The variables in the dataset are as follows:
+totaldebttoequity = 
+pricepersale
+priceperbook
+                profitmargin
+                operatingmargin
+                returnonassets
+                returnonequity
+                revenuepershare
+                marketcap
+                enterprisevalue
+                forwardpbye
+                pegratio
+                enterprisevaluebyrevenue
+                enterprisevaluebyebitda
+                revenue
+                grossprofit
+                ebitda
+                netincomeavltocommon
+                dilutedeps
+                earningsgrowth
+                revenuegrowth
+                totalcash
+                totalcashpershare
+                totaldebt
+                currentratio
+                bookvaluepershare
+                cashflow
+                beta
+                heldbyinsiders
+                heldbyinstitutions
+                sharesshortasof
+                shortratio
+                shortpercentoffloat
+                sharesshortprior
 
 Note that it is also possible to download historical data from the  U.S. Securities and Exchange Commission (SEC) website if quandl is not preferred [@https://www.sec.gov/].
 
