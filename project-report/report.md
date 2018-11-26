@@ -15,7 +15,6 @@ Stock prediction, SciPy, Numpy, Pandas, Python, Regression analysis, Classificat
 
 ---
 
-:o: redame in project code missing, can not be replicated
 
 ## Abstract
 
