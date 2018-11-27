@@ -27,4 +27,6 @@
 #### Note : You do not need both getTodayStats.py and getSummaryReports.py, any one will suffice. Prrferably use getSummaryReports.py
 
 * dow30Performance.r
+  
   *Run dow30Perfoemance.r once all the datasets have been downloaded and stored in a seperate folder.*
+  *This file still has code to be appended; not complete!!!*
