@@ -72,7 +72,9 @@ Note that it is also possible to download historical data from the  U.S. Securit
 
 ### Design
 
-The data is obtained and compiled with python scripts. R code is then used to mine this data. The goal of this project is to figure out whether a stock is underperforming or outperforming. This being a classification problem, logistic regression and support vector machine algorithms are used.
+The data is obtained and compiled with python scripts. R code is then used to mine this data. The goal of this project is to figure out whether a stock is underperforming or outperforming. This being a classification problem, the support vector machine algorithm was used.
+
+#### Data Visualization
 
 +@fig:DJIPerformance shows the trend changes on the DOW index over the past three decades.
 
@@ -82,7 +84,7 @@ The data is obtained and compiled with python scripts. R code is then used to mi
 
 ![Stock Performance [@image-stock-hist-perf]](images/StockHistPerf.png){#fig:StockPerformance}
 
-
+The charts above (DJI and stock performance) indicate that there has been a
 
 #### Support Vector Machine
 
@@ -90,13 +92,28 @@ The data is obtained and compiled with python scripts. R code is then used to mi
 > Nevertheless, the user must still provide other parameters such as the type of kernel function to use and the cost function C for 
 > introducing each slack variable" [@book-intro-data-mining].
 
-#### Logistic Regression
+#### Model Fitting
 
-> "Logistic regression is the appropriate regression analysis to conduct when the dependent variable is dichotomous (binary).  Like all > regression analyses, the logistic regression is a predictive analysis.  Logistic regression is used to describe data and to explain 
-> the relationship between one dependent binary variable and one or more nominal, ordinal, interval or ratio-level independent 
-> variables" [@https://www.statisticssolutions.com/what-is-logistic-regression/].
++@fig:svmModel2Summary shows the trend changes on the DOW index over the past three decades.
 
-#### Model Comparision
+![SVM Model2 Summary [@image-svm-model2-summary]](images/svmModel2_summary.png){#fig:svmModel2Summary}
+
+
++@fig:svmModel2ConfMat shows the trend changes on the DOW index over the past three decades.
+
+![SVM Model2 CM [@image-svm-model2-conf-matx]](images/cvmModel2_CM.png){#fig:svmModel2ConfMat}
+
+
+
++@fig:svmModel2TestPred shows the trend changes on the DOW index over the past three decades.
+
+![SVM Model2 CM [@image-svm-model2-test-pred]](images/svmModel2TestPred.png){#fig:svmModel2TestPred}
+
+
+
+#### Model Tuning
+
+
 
 ## Conclusion
 
