@@ -12,6 +12,8 @@
 
 :o: scientific articles do not have random quotes, mentioned before
 
+:o: system requirements section has lots of quotes, but no `>`, mentioned before in faq
+
 ---
 
 Keywords: SAS Viya, Data Mining, Cloud Analytic Services, Analytics
