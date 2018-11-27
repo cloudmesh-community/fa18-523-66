@@ -263,3 +263,81 @@ newdataset$status <- ifelse(newdataset$difference > 0,'Outperform','Underperform
 dow30perf <-newdataset
 
 
+#***************************#
+
+# plot the market performance
+ggplot(newdataset,aes(x=newdataset$Date),group = newdataset$ticker,col=newdataset$ticker)+
+  geom_line(aes(y= newdataset$difference))+
+  ylab(label="Performance") + 
+  xlab("Date")
+  
+#scatter plot 
+scatterplot3d(
+  dow30perf[,8:11],pch = 19, color = "blue",
+  grid = TRUE, box = TRUE,
+  mar = c(3,3,0.5,3)
+)
+
+
+#svm
+#n = nrow(mtcars)
+#trainIndex = sample(1:n, size = round(0.7*n), replace=FALSE)
+#train = mtcars[trainIndex ,]
+#test = mtcars[-trainIndex ,]
+
+
+subdata <- dow30perf[,c(8:11,24)]
+n = nrow(subdata)
+trainIndex <- sample(1:n, size = round(0.7*n), replace=FALSE)
+subdata_train <- subdata[trainIndex ,]
+subdata_test  <- subdata[-trainIndex ,]
+
+dataset1 <- subdata_train[,c(1:4)]
+dataset2 <- subdata_train$status
+
+dataset3 <- subdata_test[,c(1:4)]
+dataset4 <- subdata_test$status
+
+attach(subdata_train)
+
+#***************************#
+
+# svm model-1
+svm_model1 <- svm(dataset1,
+                  dataset2,
+                  type = 'C-classification',
+                  kernel='linear')
+summary(svm_model1)
+
+pred1 <- predict(svm_model1,dataset1)
+system.time(pred1 <- predict(svm_model1,dataset1))
+table(pred1,dataset2)
+
+
+#***************************#
+
+#svm model-2
+
+svm_model2 <- svm(dataset1,
+                  dataset2, 
+                 data= subdata_train,
+                 type = 'C-classification',
+                 kernel ='radial')
+summary(svm_model2)
+
+pred2 <- predict(svm_model2,dataset1)
+system.time(pred2 <- predict(svm_model2,dataset1))
+table(pred2,dataset2)
+
+#*****************************#
+
+#tune model-2
+
+#svm_tune <- tune(svm_model2, train.x=dataset1, train.y=dataset2, 
+#                 kernel="radial", ranges=list(cost=10^(-1:2), gamma=c(.5,1,2)))
+#*****************************#
+
+# test prediction accuracy of model against test data
+
+test_pred1 <- predict(svm_model2,type='response',newdata = dataset3)
+table(test_pred1,dataset4)
