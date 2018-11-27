@@ -96,11 +96,7 @@ The data is obtained and compiled with python scripts. R code is then used to mi
 > the relationship between one dependent binary variable and one or more nominal, ordinal, interval or ratio-level independent 
 > variables" [@https://www.statisticssolutions.com/what-is-logistic-regression/].
 
-#### model comparision
-
-## Benchmark
-
-TBD
+#### Model Comparision
 
 ## Conclusion
 
