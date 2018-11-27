@@ -4,7 +4,7 @@
 
 #### Note : The python programs only serves to extract data and create the csv files. The data mining models are witten in r. 
 
-* The Dow Jones Index cannot be downloaded via script, but manually from Yahoo Finance (https://finance.yahoo.com/quote/%5EDJI/history?p=%5EDJI).
+* The Dow Jones Index cannot be downloaded via script, but manually from Yahoo Finance (https://finance.yahoo.com/quote/%5EDJI/history?p=%5EDJI). I have included the DJI.csv file in the project-code folder.
 
 * testDataExtract.py
 
