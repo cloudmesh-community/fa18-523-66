@@ -1,8 +1,8 @@
-### For this project, run the files in the order below:
+#### For this project, run the files in the order below:
 
-#### Important : Please not that all filepaths mentioned in the code <ins>NEEDS</ins> to be changed!!!
+### Important : Please note that all filepaths mentioned in the code <ins>NEEDS</ins> to be changed!!!
 
-### Note : The python programs only serves to extract data and create the csv files. The data mining models are witten in r. 
+#### Note : The python programs only serves to extract data and create the csv files. The data mining models are witten in r. 
 
 * The Dow Jones Index cannot be downloaded via script, but manually from Yahoo Finance (https://finance.yahoo.com/quote/%5EDJI/history?p=%5EDJI).
 
@@ -24,7 +24,7 @@
 
   *getSummaryReport.py parses the CNN Business webpage to download the latest stock details in a summarized table.*
 
-### Note : You do not need both getTodayStats.py and getSummaryReports.py, any one will suffice. Prrferably use getSummaryReports.py
+#### Note : You do not need both getTodayStats.py and getSummaryReports.py, any one will suffice. Prrferably use getSummaryReports.py
 
 * dow30Performance.r
   *Run dow30Perfoemance.r once all the datasets have been downloaded and stored in a seperate folder.*
