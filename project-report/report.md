@@ -74,6 +74,16 @@ Note that it is also possible to download historical data from the  U.S. Securit
 
 The data is obtained and compiled with python scripts. R code is then used to mine this data. The goal of this project is to figure out whether a stock is underperforming or outperforming. This being a classification problem, logistic regression and support vector machine algorithms are used.
 
++@fig:DJIPerformance shows the trend changes on the DOW index over the past three decades.
+
+![DJI Performance [@image-dji-hist-perf]](images/DowHistoricalPerformance.png){#fig:DJIPerformance}
+
++@fig:StockPerformance shows the trend changes in the twenty-eight stocks over thirty years.
+
+![Stock Performance [@image-stock-hist-perf]](images/StockHistPerf.png){#fig:StockPerformance}
+
+
+
 #### Support Vector Machine
 
 > "The SVM learning problem can be formulated as a convex optimization problem, in which efficient algorithms are available to find the > global minimum of the objective function. SVM performs capacity control by maximizing the margin of the decision boundry. 
