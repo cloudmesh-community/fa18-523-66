@@ -1,4 +1,4 @@
-# SAS Viya  :smiley: fa18-523-66 
+# SAS Viya  :wave: fa18-523-66 
 
 | Ritu Susan Sanjay
 | rssanjay@iu.edu
@@ -6,6 +6,11 @@
 | hid : fa18-523-66
 | github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-66/blob/master/paper/paper.md)
 
+:o: no colons in headlines, mentioned before
+
+:o: spaces after headlines, mentioned before
+
+:o: scientific articles do not have random quotes, mentioned before
 
 ---
 
@@ -134,16 +139,16 @@ This section consists of an example detailing how easy it is to create a model i
 Step 1: Start up the SAS Viya Service
 
 SAS Viya starts up with a user friendly interface. The left panel details all about the data and the models that may be created and executed using the engine. While the right panel houses options for modifying or altering data variables and adjusting model parameters.
-+@fig:StartPage shows a screenshot of the start menu.
++@fig:startpage shows a screenshot of the start menu.
 
-![SAS Viya Start Page [@image-viyaStartpage]](images/SASViya_startpage.JPG){#fig:StartPage}
+![SAS Viya Start Page [@image-viyaStartpage]](images/SASViya_startpage.JPG){#fig:startpage}
 
 
 Step 2: Import data
 
-+@fig:ImportData shows how datasets may be imported onto the SAS library.
++@fig:importdata shows how datasets may be imported onto the SAS library.
 
-![SAS Viya Import Data [@image-viyaImportData]](images/sasViya_importData.JPG){#fig:ImportData}
+![SAS Viya Import Data [@image-viyaImportData]](images/sasViya_importData.JPG){#fig:importdata}
 
 Step 3: Add model object i.e. linear regression object
 
@@ -154,19 +159,21 @@ To create a linear regression model, all you have to so is drag and drop the des
 
 Step 4: Specify roles on the right options panel
 
-+@fig:SpecifyRoles demnstrates how roles and rules may be applied to the model.
++@fig:specifyroles demnstrates how roles and rules may be applied to the model.
 
-![SAS Viya Add Variable Roles [@image-viyaAddVarRoles]](images/sasViya_addRoles.JPG){#fig:SpecifyRoles}
+![SAS Viya Add Variable Roles [@image-viyaAddVarRoles]](images/sasViya_addRoles.JPG){#fig:specifyroles}
 
 Step 5: Modify parameters if necessary to improve model
 
 The model can then be interpreted using measures like the adjusted r-square, that predicts approximately 21.5% of the variation in the variable. Looking at other measures like the F-statistic (very high) and p-value (very low)  implies that the model is statistically significant.
-+@fig:Results displays the final result.
++@fig:results displays the final result.
 
-![Linear Regression Results [@image-LinRegRes]](images/LinearRegResults.JPG){#fig:Results}
+![Linear Regression Results [@image-LinRegRes]](images/LinearRegResults.JPG){#fig:results}
 
 ## Conclusion
 
-"Data is no longer considered to be static or stale" [@book-big-data-schonberger-pg5].
+> "Data is no longer considered to be static or stale" [@book-big-data-schonberger-pg5].
+
+:o: no connection made, scientific articles do not have random quotes
 
 Today data is the raw material generated and consumed by businesses, governments and scientific researchers. Given the right tools and the computing power, data can open up a whole new world of insights. The new cloud-based analytic software offered by SAS helps create well-defined models and generate results, giving way to new ideas.  However, SAS Viya is just one of the many tools among thousands offered today and choosing the right tool depends on the users' goals.
