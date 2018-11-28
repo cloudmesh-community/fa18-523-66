@@ -1,18 +1,10 @@
-# SAS Viya  :wave: fa18-523-66 
+# SAS Viya  :smiley: fa18-523-66 
 
 | Ritu Susan Sanjay
 | rssanjay@iu.edu
 | Indiana University, Bloomington
 | hid : fa18-523-66
 | github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-66/blob/master/paper/paper.md)
-
-:o: no colons in headlines, mentioned before
-
-:o: spaces after headlines, mentioned before
-
-:o: scientific articles do not have random quotes, mentioned before
-
-:o: system requirements section has lots of quotes, but no `>`, mentioned before in faq
 
 ---
 
@@ -128,11 +120,11 @@ It is necessary to note that a seperete independent host is needed if SAS 9.4 ex
  
 It is first necessary to understand the difference beyween the two deployment types: full deployment and programming-only deployment. The full deployment includes all the features SAS Viya has to offer and is usually the default mode. However, it is also possible to deploy only a subset of the features; the programming-only deployment excludes the SAS Drive and a number of the graphical features [@www-deployment-difference]. The hardware requirements for a programming only and a full deployment differ. When determining the specifications of the host, three components are to be kept in mind: CAS server,programming runtime and the service layer [@manual-viya-deployment-guide-6to8].
 
- 1) CAS Server : "The amount of RAM that is required for the CAS Server is determined by the amount of data that is processed, and by the level of user activity in the environment. However, out of the box, the amount of RAM that is required to start the CAS Server is less than 1 GB" [@manual-viya-deployment-guide-6to8].
+ 1) CAS Server : Before installation a key point to be taken to account is the required amount of RAM. This may vary depending on activity level of users in the SAS software environment and the data (load) to be processed. However, less that 1 gegabyte of RAM is mandatory for CAS SErver startup [@manual-viya-deployment-guide-6to8].
 
- 2) Programming Runtime : "The number of CPU cores that are required for the Programming Runtime depends on your specific license. If your CAS license is for N cores, you are also entitled to run the Programming Runtime on the samenumber of cores. However, the minimum requirement is 2 cores. SAS recommends that you allocate at least 4 cores for optimal performance. The minimum required amount of RAM for the Programming Runtime is 4 GB" [@manual-viya-deployment-guide-6to8].
+ 2) Programming Runtime : The CAS license procured determines the number of CPU cores required for your environment. On that note, if the CAS license specifies N cores, then the user is entitled to the same number of cores on their setup. SAS however, specifies a minimum of two cores and at least four cores for optimal performance. The software also necessiates a minimum of 4 gegabyte RAM for the programming environment [@manual-viya-deployment-guide-6to8].
 
- 3) Service Layer : "This category consists of components that are required for a full deployment, as well as services that support specific SAS products. They include the Core Services host  group and all the other services that support SAS Viya analytics processing"  [@manual-viya-deployment-guide-6to8].
+ 3) Service Layer : The service layer primarily are the components required for a full deployment ideally. These also include services that support other SAS softwares. Aditionally, it includes supporting services for the SAS VIYa analytics software, namely the Core Services host  [@manual-viya-deployment-guide-6to8].
 
 ### Installation
 
@@ -182,8 +174,6 @@ The model can then be interpreted using measures like the adjusted r-square, tha
 
 ## Conclusion
 
-> "Data is no longer considered to be static or stale" [@book-big-data-schonberger-pg5].
-
-:o: no connection made, scientific articles do not have random quotes
+> "Data is no longer considered to be static or stale" [@book-big-data-schonberger].
 
 Today data is the raw material generated and consumed by businesses, governments and scientific researchers. Given the right tools and the computing power, data can open up a whole new world of insights. The new cloud-based analytic software offered by SAS helps create well-defined models and generate results, giving way to new ideas.  However, SAS Viya is just one of the many tools among thousands offered today and choosing the right tool depends on the users' goals.
