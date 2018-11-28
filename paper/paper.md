@@ -47,7 +47,7 @@ SAS Viya emphasises a unified experience for data scientists and analysts alike.
 
 SAS Viya 3.4 gives data scientists access to the following components:
 
-### SAS Cloud Analytic Services:
+### SAS Cloud Analytic Services
 
 > "CAS goals are to provide an analytics service with a public API accessible by many clients supported by SAS or open-source clients 
 > using plug-in modules from SAS. [@article-SAS-CAS-10to18]"
@@ -59,37 +59,43 @@ The most import aspect of CAS is that all data is stored in the form of tables. 
 
 Like all cloud services, SAS Viya too concentrates on fault tolerance. Node failure is inevitable when dealing with multiple number of nodes are implemented in a system. Data is replicated across the cluster, in order to retrieve data in case one of the worker nodes fail. The new system has been dubbed the GCCOMM. The subsystem can detect failure in nodes; the controllers and workers can  reconfigure the system, thus restarting the action and allowing the remaining worker nodes to access lost data from the redundant blocks [@article-SAS-CAS-4to9].
 
-### SAS Studio:
+### SAS Studio
+
 In the simplest of words, SAS Studio is an editor designed for both expert and novice programmers to write and execute SAS code in an assisted environment. Users are provided with a single interface to access all data files, programs and libraries (user-defined and in-built). The SAS studio is extremely convinient: there is no local installation involved i.e. once the software is installed you just provide the users with the url to access the software. This centralizes and simplifies regular maintenance. Other features range from
 (data) table analyzer, sql engine, code snippet library prompts from frequently executed codes, report generation and export in multiple formats including pdf and xml. One important feature to be noted is that the studio interface is consistant, regardless of where and how the software runs; as the IT infrasturcture is modified, the SAS Studio environment is the same [@manual-SAS-Studio].
 
-### SAS Visual Analytics:
+### SAS Visual Analytics
+
 > "SAS Visual Analytics provides a complete platform for analytics visualization and interactive selfservice BI and reporting 
 > capabilities are combined with out-of-the-box advanced analytics to enable users to  discover insights from any size and type of data > including text" [@manual-SAS-Visual-Analytics].
 
 Popular analytic tools include - goal seeking and scenario analysis, automated forecasting, decision trees, text analytics and network diagrams. [@manual-SAS-Visual-Analytics]
 
-### SAS Visual Statistics:
+### SAS Visual Statistics
+
 > "It provides a drag-and-drop web browser interface that empowers multiple users to explore massive data, and then interactively and 
 > iteratively create descriptive and predictive models" [@manual-SAS-Visual-Statistics].
 
 Statisticians are most often faced with the challenge of vhoosing the right model that fits the data. As the amont of data to be analyzed keeps increasing, this can prove to be a very time-consuming task. SAS Visual Statistics allows users to generate reports that detail model comparision summaries, misclassification tables and ROC charts. The software includes an interactive slider that manipulates thresholds preset by the user [@manual-SAS-Visual-Statistics].
 
-### SAS Visual Data Mining and Machine Learning:
+### SAS Visual Data Mining and Machine Learning
+
 > "In addition to innovative machine learning and deep learning techniques for analyzing structured and unstructured data, it integrates > all other tasks in your analytical processes. From data preparation and exploration to model development and deployment, multiple 
 > personas work in the same, integrated environment" [@manual-SAS-Visual-DM-ML].
 
 The software allows multiple users to concurrently analyze data (structured or unstructured) with the Model Studio. Every project can be subdidvided using visual pipelines, displayed in a logical sequence. The SAS Visual Data Mining and Machine Learning boasts of a significantly reduced runtime, owing to the multicore architecture. Popular models included in the software are:
 gradient boosting, SVMs, neural networks, Gausian models, bayesian networks among others [@manual-SAS-Visual-DM-ML].
 
-### SAS Econometrics:
+### SAS Econometrics
+
 > "SAS Econometrics supports a range of econometric model types with a single framework. It’s fully integrated with all of the 
 > contributing analytics that coincide with econometrics, and with data preparation, exploration, presentation and reporting 
 > capabilities in SAS that are essential to successful econometric analysis" [@manual-SAS-Econometrics].
 
 The in-memory analytics feature of SAS Viya ensures that iterative and repetitive tasks can be run quickly without re-loading data. The software also provides a wide-range of tools for modelling business scenarios. Simulations and forecasting techniques can be easily implemented as the software makes use of the SAS VIya Engine, ensuring high-availability and the ability to code using open-source languages [@manual-SAS-Econometrics].
 
-### SAS Visual Forecasting:
+### SAS Visual Forecasting
+
 > "SAS Visual Forecasting provides a resilient, distributed and optimized generic time series analysis scripting environment for cloud 
 > computing" [@manual-SAS-Visual-Forecasting].
 
@@ -97,10 +103,12 @@ The in-memory analytics feature of SAS Viya ensures that iterative and repetitiv
 
 The software itself recommends the most suitable model and additionally models are selected based not on how well they fit past data but on how well they can be used to predict the future. The interface allows for training and modelling data mining algorithms including neural networks. For example, the Multstage Forecasting node (for regression and time series included) creates a forecast combining signals obtained from different models [@manual-SAS-Visual-Forecasting].
 
-### SAS Visual Text Analytics:
+### SAS Visual Text Analytics
+
 SAS Visual Text Analytics seeks to bring together concepts of NLP [@www-Natural-Language-Processing] along with machine learning and data mining techniques to derive insights from unstructured data. The accuracy of an analytical model may be increased by utilizing a combination of machine learning techniques and rule-based approaches. Users also have the ability to build their own custom search engine, provided by microservice architecture and built in APIs. The text-analytics pipeline makes available five types of nodes : Text Parsing, Concepts, Catagories, Sentiment and Topics. The software also features automatic extraction of features identified by topics generated by the machine. [@manual-SAS-Visual-Text-Analytics]
 
-### SAS Optimization:
+### SAS Optimization
+
 SAS Optimization was designed for industry experts who utilize operations research and optimization techniques to create decision-making models to solve problems. 
 
 >"SAS Optimization provides a powerful, intuitive algebraic optimization modeling language and an array of algorithms. This involves a 
@@ -116,7 +124,7 @@ Models are executed efficiently since the software runs on the Viya Engine. Nota
 
 It is necessary to note that a seperete independent host is needed if SAS 9.4 exists on the system (co-installation is not possible). Also, if the existing SAS software on the system is SAS 9.3, note that many of the features on SAS 9.3 are not supported if the Java version has been updated to Java 8 or plus. The hardware requirements for a programming only environment also differs from a full deployment.
 
-### System Requirements:
+### System Requirements
  
 It is first necessary to understand the difference beyween the two deployment types: full deployment and programming-only deployment. The full deployment includes all the features SAS Viya has to offer and is usually the default mode. However, it is also possible to deploy only a subset of the features; the programming-only deployment excludes the SAS Drive and a number of the graphical features [@www-deployment-difference]. The hardware requirements for a programming only and a full deployment differ. When determining the specifications of the host, three components are to be kept in mind: CAS server,programming runtime and the service layer [@manual-viya-deployment-guide-6to8].
 
@@ -126,7 +134,7 @@ It is first necessary to understand the difference beyween the two deployment ty
 
  3) Service Layer : "This category consists of components that are required for a full deployment, as well as services that support specific SAS products. They include the Core Services host  group and all the other services that support SAS Viya analytics processing"  [@manual-viya-deployment-guide-6to8].
 
-### Installation:
+### Installation
 
 The first step in the installation involves setting up the accounts. The user account for both the CAS as well as the postgreSQL requires the SAS credentials to be specified. Instructions on how to set this up is extensively detailed in the setup manual (the link to the latest version of the same is provided at the end of this section). If the user seeks to set up the full deployment, then changes may be made to modify the postgreSQL settings to specify personal ports and directories. Further to this, the CAS Server Monitor port may also be changed along with modifications to the kerberos [@www-kerberos] settings. The final step after the configuration files have been modified is to simply run the SAS Viya setup batch file through the command prompt folling the regular intructions [@manual-viya-deployment-guide-29to37].
 
