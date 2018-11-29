@@ -4,8 +4,8 @@
 |  rssanjay@iu.edu
 | Indiana University, Bloomington
 | hid : fa18-523-66
-| github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-58/blob/master/project-report/report.md)
-| code: https://github.com/cloudmesh-community/fa18-523-66/tree/master/project-code
+| github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-66/blob/master/project-report/report.md)
+| code: [:cloud:](https://github.com/cloudmesh-community/fa18-523-66/tree/master/project-code)
 
 ---
 
@@ -26,6 +26,7 @@ Big data is everywhere. Newspapers and magazines are teeming with details on how
 The financial sector is deemed to be one of the largest producers of data - roughly 2.5 quantillion bytes everyday[@fa18-523-66-world-data]. However, many reports state how the investment sector could always make better use of their massive databank. Analytics
 has been widely adopted in the financial services industry and has helped traders make better decisions and thus see more
 favorable returns.
+
 > "Algorithmic trading now uses a great deal of historical data in conjunction with big data and complex mathematical formulas to help 
 > investors maximize the returns in their investment portfolios" [@fa18-523-66-bigdata-for-finance].
 
@@ -43,6 +44,7 @@ Knowledge Discovery of Databases is the sequential process of transforming raw d
 Data for this project was derived from Quandl and Yahoo Finance. The stocks considered are those listed on the Dow Jones Index: 3M (MMM), American Express (AXP), Apple (AAPL), Boeing (BA), Caterpillar (CAT), Chevron (CVX), Cisco (CSCO), Coca-Cola (KO), DowDuPont Inc (DWDP), Exxon Mobil (XOM), Goldman Sachs (GS), Home Depot (HD), IBM (IBM), Intel (INTC), Johnson & Johnson (JNJ), JPMorgan Chase (JPM), McDonald's (MCD), Merck (MRK), Microsoft (MSFT), Nike (NKE), Pfizer (PFE), Procter & Gamble (PG), Travelers Companies Inc (TRV), United Health (UNH), United Technologies (UTX), Verizon (VZ), Visa (V), Walmart (WMT), Walgreens Boots Alliance (WBA), Walt Disney (DIS) [@https://money.cnn.com/data/dow30/]. 
 
 The historical for the stocks are available to be downloaded via an API on Quandl. The Quandl platform makes it easy to download financial and alternative data for analysis [@https://www.quandl.com/]. A python script can easily donload allthe historical data for the companies in the Dow index. However, some datasets are only available to premium users; data for both Walgreens Boots Alliance (WBA) and DowDuPont Inc (DWDP) are available for a small fee. The data descriptions for the 30 datasets is as follows [@https://www.quandl.com/data/EOD/HD-Home-Depot-Inc-The-HD-Stock-Prices-Dividends-and-Splits]:
+
 * Date - date in YYYY-MM-DD format
 * Open - opening price of stock in dollars
 * High - highest price for day in dollars
@@ -58,6 +60,7 @@ The historical for the stocks are available to be downloaded via an API on Quand
 * Adj_Volume - adjusted (for splits and dividends) using the CRSP 
 
 The historical data for the DJIA needs to be downloaded manually from yahoo finance. The dataset description for the same is as follows:
+
 * Date - date in YYYY-MM-DD format
 * Open - opening price of stock in dollars
 * High - highest price for day in dollars
