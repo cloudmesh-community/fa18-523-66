@@ -89,6 +89,10 @@ The data is obtained and compiled with python scripts. R code is then used to mi
 
 The past century has shown a steep exponential increase in global capitals market. This in turn led to a boom in 
 
++@fig:DataCorrelation shows the correlation between the open, low, high and close variables.
+
+![Data Correlation [@image-data-correlation]](images/dataExplore.png){#fig:DataCorrelation}
+
 #### Support Vector Machine
 
 > "The SVM learning problem can be formulated as a convex optimization problem, in which efficient algorithms are available to find the > global minimum of the objective function. SVM performs capacity control by maximizing the margin of the decision boundry. 
