@@ -89,9 +89,20 @@ The data is obtained and compiled with python scripts. R code is then used to mi
 
 The past century has shown a steep exponential increase in global capitals market. This in turn led to a boom in 
 
-+@fig:DataCorrelation shows the correlation between the open, low, high and close variables.
 
-![Data Correlation [@image-data-correlation]](images/dataExplore.png){#fig:DataCorrelation}
++@fig:DataCorrelation1 shows the correlation between the open, low, high and close variables.
+
+![Data Correlation 1 [@image-data-correlation-1]](images/dataExplore.png){#fig:DataCorrelation1}
+
++@fig:DataCorrelation2 shows the correlation between the previous day close with the day's open, low, high and close variables.
+
+![Data Correlation 2 [@image-data-correlation-2]](images/dataExplore2.png){#fig:DataCorrelation2}
+
+
++@fig:DataCorrelation3 shows the correlation between the day's open and the low and high variables.
+
+![Data Correlation 3 [@image-data-correlation-3]](images/dataExplore3.png){#fig:DataCorrelation3}
+
 
 #### Support Vector Machine
 
