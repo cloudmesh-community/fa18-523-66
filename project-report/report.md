@@ -123,6 +123,7 @@ The past century has shown a steep exponential increase in global capitals marke
 
 
 
+
 +@fig:svmModel2TestPred shows the confusion matrix from applying the model to the test data.
 
 ![SVM Model2 CM [@image-svm-model2-test-pred]](images/svmModel2TestPred.png){#fig:svmModel2TestPred}
