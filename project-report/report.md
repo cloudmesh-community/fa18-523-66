@@ -1,7 +1,7 @@
 # Do I buy or sell? - Using Big Data to predict Stock Performance  :hand:  fa18-523-66 (...editing)
 
 | Ritu Susan Sanjay   
-|  rssanjay@iu.edu
+| rssanjay@iu.edu
 | Indiana University, Bloomington
 | hid : fa18-523-66
 | github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-66/blob/master/project-report/report.md)
@@ -87,7 +87,11 @@ The data is obtained and compiled with python scripts. R code is then used to mi
 
 ![Stock Performance [@image-stock-hist-perf]](images/StockHistPerf.png){#fig:StockPerformance}
 
-The past century has shown a steep exponential increase in global capitals market. This in turn led to a boom in 
+
+
+In this project I attempt to formulate a model that predicts whether a model underperforms or outperforms the market. Four main factors of a stock are taken into consideration: the Open, High, Low and Close values of any particular day. However, it is unclear whether, it would be beneficial to use the present day's values or the changes in the four factors from the previous day's close. Therefore, two models have been proposed: the first model uses the four factors as they were, while the second model determines the differece from the previous day.
+
+But first it is always advantageous to determine the relationship between the data variables to check if there could be the possibility of another model with greater predicion accuracy.
 
 
 +@fig:DataCorrelation1 shows the correlation between the open, low, high and close variables.
@@ -99,7 +103,7 @@ The past century has shown a steep exponential increase in global capitals marke
 ![Data Correlation 2 [@image-data-correlation-2]](images/dataExplore2.png){#fig:DataCorrelation2}
 
 
-+@fig:DataCorrelation3 shows the correlation between the day's open and the low and high variables.
+In order to make sure all possibilities for the said model have been considered, another relationship was considered. Over the net quite a number of traders rave about the OHL technique. Note that this strategy is only to be used for intraday trading and not for long term analysis. However, it would be interesting to determine whether this strategy would provide the desired results. the strategy has two basic rules and only three of the factors from the originally proposed model are used: Open, Low and High. The first step would be to find the difference between the Open and Low (diff1) , and the Open and High (diff2). If diff1 is greater than diff2 then it indicates a downward trend, while if diff2 is greter than diff1 then it indicates an upward trend. As such inorder to visualize the data, we check its correlation matrix [@http://www.mudraa.com/trading/93282/2/trend-finding-method-this-strategy-only-for-intraday--2.html].  +@fig:DataCorrelation3 shows the correlation between the day's open and the low and high variables.
 
 ![Data Correlation 3 [@image-data-correlation-3]](images/dataExplore3.png){#fig:DataCorrelation3}
 
