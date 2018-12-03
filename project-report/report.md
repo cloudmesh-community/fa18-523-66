@@ -144,6 +144,7 @@ The past century has shown a steep exponential increase in global capitals marke
 ![SVM Model3 CM [@image-svm-model3-test-pred]](images/svmModel3TestPred.png){#fig:svmModel3TestPred}
 
 
+
 +@fig:ModelPerformance shows the model performance rates for both models.
 
 ![SVM Model Performance [@image-svm-model-perf]](images/ModelPerformance.JPG){#fig:ModelPerformance}
