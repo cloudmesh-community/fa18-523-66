@@ -16,5 +16,8 @@ paper:
     url: https://github.com/cloudmesh-community/fa18-523-66/blob/master/paper/paper.md      
 project:
   - title: "Do I buy or sell? - Using Big Data to predict Stock Performance"
-    keyword: Stock
+    keyword: Stock Performance, R, Python, SVM
     url: https://github.com/cloudmesh-community/fa18-523-66/blob/master/project-report/report.md
+    group: fa18-523-66
+    code: https://github.com/cloudmesh-community/fa18-523-66/tree/master/project-code
+
