@@ -119,6 +119,9 @@ Support Vector Machines are most suitable when there are a large number of featu
 
 ##### Model Fitting
 
+Choosing the right kernel can prove to be tedious, give the nature of the data. Radial kernal was chosen for all three models as it includes the most important feature : being a stationary kernel. The kernal is also smooth, and therefore a visual representation is arsthetic in nature.
+
+
 ###### Model-1: Using Open,Low, High and Close
 +@fig:svmModel2Summary shows the summary after applying the svm model-2 to the training dataset.
 
@@ -174,6 +177,9 @@ Support Vector Machines are most suitable when there are a large number of featu
 +@fig:ModelPerformance shows the model performance rates for both models.
 
 ![SVM Model Performance [@image-svm-model-perf]](images/ModelPerformance.JPG){#fig:ModelPerformance}
+
+## Results
+
 
 
 ## Conclusion
