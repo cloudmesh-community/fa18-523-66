@@ -18,7 +18,7 @@ Stock performance prediction, SciPy, Numpy, Pandas, Python, R, Classification, S
 
 ## Abstract
 
-Big data is everywhere. Newspapers and magazines are teeming with details on how Company A implemented the perfect business plan or how XYZ pharmaceuticals developed the drug to reverse some previously uncurable disease. Better still is the internet with more resources to utilize big data. Numerous copies of books have been published on this topic and Forbes rates big data related jobs as the most desirable. Every single industry today has finally turned its attentions to better understanding how to use data to serve customers better and reap profits. In light of this, there are two industries which have the most to benefit from data science : a) the finance and investment industry and b) the medical industry. This paper focuses on how big data can be used to predict stock the rise and fall in stock prices. 
+Big data is everywhere. Newspapers and magazines are teeming with details on how Company A implemented the perfect business plan or how XYZ pharmaceuticals developed the drug to reverse some previously uncurable disease. Better still is the internet with more resources to utilize big data. Numerous copies of books have been published on this topic and Forbes rates big data related jobs as the most desirable. Every single industry today has finally turned its attentions to better understanding how to use data to serve customers better and reap profits. In light of this, there are two industries which have the most to benefit from data science : a) the finance and investment industry and b) the medical industry. This paper focuses on how big data can be used to predict the performance of stocks against the market. 
 
 
 ## Introduction
@@ -27,8 +27,7 @@ The financial sector is deemed to be one of the largest producers of data - roug
 has been widely adopted in the financial services industry and has helped traders make better decisions and thus see more
 favorable returns.
 
-> "Algorithmic trading now uses a great deal of historical data in conjunction with big data and complex mathematical formulas to help 
-> investors maximize the returns in their investment portfolios" [@www-bigdata-for-finance].
+> "Algorithmic trading now uses a great deal of historical data in conjunction with big data and complex mathematical formulas > to help investors maximize the returns in their investment portfolios" [@www-bigdata-for-finance].
 
 In years past, traders and banks made decisions based on market trends and calculated risks on each investment. Today, however, they are at an advantage : computers can do the same things, only it is done on a massive scale and is far more accurate. The algorithm developed makes use of the vast amout of resources it has at its disposal. The accuracy of the predictions made by a computer depend on the input data i.e. the closer the data is to the real-time the more accurate its analysis of the current market. In his book, Our Final Invention, author James Barrat mentions that, if humans are ready to tackle AI and develop it to the ultimate Artificial Super Intelligence, then the Wall Street might be the first place to look for such an advancement [@book-our-final-invention]. Coming back to the point made earlier : the banking and investment sector holds some very promising advancements for data science and artificial intelligence. 
 
@@ -89,7 +88,7 @@ The data is obtained and compiled with python scripts. R code is then used to mi
 
 
 
-In this project I attempt to formulate a model that predicts whether a model underperforms or outperforms the market. Four main factors of a stock are taken into consideration: the Open, High, Low and Close values of any particular day. However, it is unclear whether, it would be beneficial to use the present day's values or the changes in the four factors from the previous day's close. Therefore, two models have been proposed: the first model uses the four factors as they were, while the second model determines the differece from the previous day.
+This project attempts to formulate a model that predicts whether a model underperforms or outperforms the market. Four main factors of a stock are taken into consideration: the Open, High, Low and Close values of any particular day. However, it is unclear whether, it would be beneficial to use the present day's values or the changes in the four factors from the previous day's close. Therefore, two models have been proposed: the first model uses the four factors as they were, while the second model determines the differece from the previous day.
 
 But first it is always advantageous to determine the relationship between the data variables to check if there could be the possibility of another model with greater predicion accuracy.
 
@@ -111,9 +110,8 @@ It is interesting to note that there is little to no correlation between the two
 
 #### Support Vector Machine
 
-> "The SVM learning problem can be formulated as a convex optimization problem, in which efficient algorithms are available to find the > global minimum of the objective function. SVM performs capacity control by maximizing the margin of the decision boundry. 
-> Nevertheless, the user must still provide other parameters such as the type of kernel function to use and the cost function C for 
-> introducing each slack variable" [@book-intro-data-mining].
+> "The SVM learning problem can be formulated as a convex optimization problem, in which efficient algorithms are available to > find the global minimum of the objective function. SVM performs capacity control by maximizing the margin of the decision 
+> boundry. Nevertheless, the user must still provide other parameters such as the type of kernel function to use and the cost > function C for introducing each slack variable" [@book-intro-data-mining].
 
 Support Vector Machines are most suitable when there are a large number of features and the numeber of rows in the training data is quite large. It is usually considered the best model in situations where there is high sparcity or problems where the number of zero values among the features is high. Furthermore, using the kernal trick ensures optimization of algorithms and problems [@www-svm-machine-learning].
 
@@ -187,7 +185,7 @@ In order to evalute the better model from among the three, the performance featu
 ![SVM Model Results [@image-svm-model-results]](images/results.png){#fig:Results}
 
 Note that the the values '2' and '1' have been used to represent 'Underperform' and 'Outperform' respectively.
-The results shown above indicate that out of all the twenty-eight stocks in the list, only model predicts that only United Health Group is expected to outperform the market. 
+The results shown above indicate that out of all the twenty-eight stocks in the list, only model predicts that only United Health Group (UNH) is expected to outperform the market. Checking the news coverage and media for UNH performance yields that it has indeed been outperforming the market.
 
 The reason for there being a difference in predictions between the real-world and the project model may be attribute dthe various features that have not been considered for the model. Features such as total debt-to-equity ratio, market cap, volume etc. would provide better prediction. Also, many internal financial factors have not been considered like the financial reports realeased by each company. Thus, this model proves that it can be quite challenging (but quite possible) to create a model which predicts the performance of the companies in accordance with the market changes. Nevertheless, this could prove to be a ost promising project for future work.
 
@@ -195,11 +193,12 @@ The reason for there being a difference in predictions between the real-world an
 
 The stock market is non-linear in nature, owing to which it is quite challenging to predict a trend with great accuracy [@article-predict-stock-price]. Nevertheless, it has attracted one too many investors and analysts in attempting to predict its performance:
 
-> "It was not at all what the experts predicted. most of them did not forsee that an economic powerhouse could suffer so much damage in > such a short  period of time. They did not expect the fast-growing gross domestic product (GDP) to go so spectacularly into reverse, 
-> the real estate bubble to burst as violently as it did, and industrial production and capacity utilization to fall so steeply. Nor did > they expect the stock market to plunge so dramatically from ita all-time high- although it would recover some ground 
-> subsequently....But the real issue is not what has happened, but what happens next" [@book-accelerating-out-of-the-great-recession].
+> "It was not at all what the experts predicted. most of them did not forsee that an economic powerhouse could suffer so much > damage in such a short  period of time. They did not expect the fast-growing gross domestic product (GDP) to go so 
+> spectacularly into reverse, the real estate bubble to burst as violently as it did, and industrial production and capacity 
+> utilization to fall so steeply. Nor did they expect the stock market to plunge so dramatically from ita all-time high- 
+> although it would recover some ground subsequently....But the real issue is not what has happened, but what happens next" [@book-accelerating-out-of-the-great-recession].
 
-This report presents the study in using data mining algorithms (Support Vector Machines and Logistic Regression) to predict whether a stock underperforms or outperforms the market. The imperfection in the results obtained via this project can be attributed to the change in political changes, current economical shifts and lastly the ever-changing investor prospects.
+This report presents the study in using data mining algorithms (Support Vector Machines) to predict whether a stock underperforms or outperforms the market. The imperfection in the results obtained via this project can be attributed to the change in political changes, current economical shifts and lastly the ever-changing investor prospects.
 
 For future work, there are quite a number of improvements to be made. For example, kafka can be used to stream real-time data from websites. Also, it would be interesting to implement neural networks to improve the efficiency of the prediction. Text mining social media feeds could be implemented to bring aspects of changes in economy, politics and current trends to the model.
 
