@@ -31,6 +31,11 @@ favorable returns.
 
 In years past, traders and banks made decisions based on market trends and calculated risks on each investment. Today, however, they are at an advantage : computers can do the same things, only it is done on a massive scale and is far more accurate. The algorithm developed makes use of the vast amout of resources it has at its disposal. The accuracy of the predictions made by a computer depend on the input data i.e. the closer the data is to the real-time the more accurate its analysis of the current market. In his book, Our Final Invention, author James Barrat mentions that, if humans are ready to tackle AI and develop it to the ultimate Artificial Super Intelligence, then the Wall Street might be the first place to look for such an advancement [@book-our-final-invention]. Coming back to the point made earlier : the banking and investment sector holds some very promising advancements for data science and artificial intelligence. 
 
+> "It was not at all what the experts predicted. most of them did not forsee that an economic powerhouse could suffer so much > damage in such a short  period of time. They did not expect the fast-growing gross domestic product (GDP) to go so 
+> spectacularly into reverse, the real estate bubble to burst as violently as it did, and industrial production and capacity 
+> utilization to fall so steeply. Nor did they expect the stock market to plunge so dramatically from ita all-time high- 
+> although it would recover some ground subsequently....But the real issue is not what has happened, but what happens next" [@book-accelerating-out-of-the-great-recession].
+
 On this note, it is then necessary to state that the stock prediction can be a very tempting prospect for most data scientists. The financial market has a very short feedback cycle and hence quick validation of predictions is possible. However, it is extremely difficult to develop a model that can provide higher levels of accuracy in most of its predictions. It is very much possible that the model developed would make predictions for a maximum of one day after which you might have to revamp it all over again [@www-python-stock-pred]. Nonetheless, this paper will attempt to develop a model that predicts the trends for stock prices over time.
 
 ## Implementation
@@ -191,12 +196,7 @@ The reason for there being a difference in predictions between the real-world an
 
 ## Conclusion
 
-The stock market is non-linear in nature, owing to which it is quite challenging to predict a trend with great accuracy [@article-predict-stock-price]. Nevertheless, it has attracted one too many investors and analysts in attempting to predict its performance:
-
-> "It was not at all what the experts predicted. most of them did not forsee that an economic powerhouse could suffer so much > damage in such a short  period of time. They did not expect the fast-growing gross domestic product (GDP) to go so 
-> spectacularly into reverse, the real estate bubble to burst as violently as it did, and industrial production and capacity 
-> utilization to fall so steeply. Nor did they expect the stock market to plunge so dramatically from ita all-time high- 
-> although it would recover some ground subsequently....But the real issue is not what has happened, but what happens next" [@book-accelerating-out-of-the-great-recession].
+The stock market is non-linear in nature, owing to which it is quite challenging to predict a trend with great accuracy [@article-predict-stock-price]. Nevertheless, it has attracted one too many investors and analysts in attempting to predict its performance.
 
 This report presents the study in using data mining algorithms (Support Vector Machines) to predict whether a stock underperforms or outperforms the market. The imperfection in the results obtained via this project can be attributed to the change in political changes, current economical shifts and lastly the ever-changing investor prospects.
 
