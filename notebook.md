@@ -44,7 +44,7 @@
   
 # Week 12: Fri 11/02/18 - 11/08/18
   *  Working on project
-  *  Trying a new model for project : not successful; will proceed with earlier proposition
+  *  Trying a new model for project : not successful; will try another method
    
 # Week 13: Fri 11/09/18 - 11/15/18
   *  Project completed
