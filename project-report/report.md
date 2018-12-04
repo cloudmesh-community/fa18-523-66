@@ -135,7 +135,7 @@ Choosing the right kernel can prove to be tedious, give the nature of the data. 
 
 +@fig:svmModel2TestPred shows the confusion matrix from applying the model to the test data.
 
-![SVM Model2 CM [@image-svm-model2-test-pred]](images/svmModel2TestPred.png){#fig:svmModel2TestPred}
+![SVM Model2 Test Pred [@image-svm-model2-test-pred]](images/svmModel2TestPred.png){#fig:svmModel2TestPred}
 
 
 ###### Model-2: Using difference between previous day Close and present day Open,Low, High and Close values
@@ -152,7 +152,7 @@ Choosing the right kernel can prove to be tedious, give the nature of the data. 
 
 +@fig:svmModel3TestPred shows the confusion matrix from applying the model to the test data.
 
-![SVM Model3 CM [@image-svm-model3-test-pred]](images/svmModel3TestPred.png){#fig:svmModel3TestPred}
+![SVM Model3 Test Pred [@image-svm-model3-test-pred]](images/svmModel3TestPred.png){#fig:svmModel3TestPred}
 
 
 ###### Model-3: Using OHL strategy
@@ -169,7 +169,7 @@ Choosing the right kernel can prove to be tedious, give the nature of the data. 
 
 +@fig:svmModel4TestPred shows the confusion matrix from applying the model to the test data.
 
-![SVM Model4 CM [@image-svm-model4-test-pred]](images/svmModel4TestPred.png){#fig:svmModel4TestPred}
+![SVM Model4 Test Pred [@image-svm-model4-test-pred]](images/svmModel4TestPred.png){#fig:svmModel4TestPred}
 
 
 ###### Model Comparision
@@ -197,7 +197,7 @@ The stock market is non-linear in nature, owing to which it is quite challenging
 
 > "It was not at all what the experts predicted. most of them did not forsee that an economic powerhouse could suffer so much damage in > such a short  period of time. They did not expect the fast-growing gross domestic product (GDP) to go so spectacularly into reverse, 
 > the real estate bubble to burst as violently as it did, and industrial production and capacity utilization to fall so steeply. Nor did > they expect the stock market to plunge so dramatically from ita all-time high- although it would recover some ground 
-> subsequently....But the real issue is not what has happened, but what happens net" [@book-accelerating-out-of-the-great-recession].
+> subsequently....But the real issue is not what has happened, but what happens next" [@book-accelerating-out-of-the-great-recession].
 
 This report presents the study in using data mining algorithms (Support Vector Machines and Logistic Regression) to predict whether a stock underperforms or outperforms the market. The imperfection in the results obtained via this project can be attributed to the change in political changes, current economical shifts and lastly the ever-changing investor prospects.
 
