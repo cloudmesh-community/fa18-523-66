@@ -1,4 +1,4 @@
-# Do I buy or sell? - Using Big Data to predict Stock Performance  :hand:  fa18-523-66 
+# Do I buy or sell? - Using Big Data to predict Stock Performance  :smiley:  fa18-523-66 
 
 | Ritu Susan Sanjay   
 | rssanjay@iu.edu
@@ -23,16 +23,16 @@ Big data is everywhere. Newspapers and magazines are teeming with details on how
 
 ## Introduction
 
-The financial sector is deemed to be one of the largest producers of data - roughly 2.5 quantillion bytes everyday[@fa18-523-66-world-data]. However, many reports state how the investment sector could always make better use of their massive databank. Analytics
+The financial sector is deemed to be one of the largest producers of data - roughly 2.5 quantillion bytes everyday[@www-world-data]. However, many reports state how the investment sector could always make better use of their massive databank. Analytics
 has been widely adopted in the financial services industry and has helped traders make better decisions and thus see more
 favorable returns.
 
 > "Algorithmic trading now uses a great deal of historical data in conjunction with big data and complex mathematical formulas to help 
-> investors maximize the returns in their investment portfolios" [@fa18-523-66-bigdata-for-finance].
+> investors maximize the returns in their investment portfolios" [@www-bigdata-for-finance].
 
-In years past, traders and banks made decisions based on market trends and calculated risks on each investment. Today, however, they are at an advantage : computers can do the same things, only it is done on a massive scale and is far more accurate. The algorithm developed makes use of the vast amout of resources it has at its disposal. The accuracy of the predictions made by a computer depend on the input data i.e. the closer the data is to the real-time the more accurate its analysis of the current market. In his book, Our Final Invention, author James Barrat mentions that, if humans are ready to tackle AI and develop it to the ultimate Artificial Super Intelligence, then the Wall Street might be the first place to look for such an advancement [@fa18-523-66-our-final-invention]. Coming back to the point made earlier : the banking and investment sector holds some very promising advancements for data science and artificial intelligence. 
+In years past, traders and banks made decisions based on market trends and calculated risks on each investment. Today, however, they are at an advantage : computers can do the same things, only it is done on a massive scale and is far more accurate. The algorithm developed makes use of the vast amout of resources it has at its disposal. The accuracy of the predictions made by a computer depend on the input data i.e. the closer the data is to the real-time the more accurate its analysis of the current market. In his book, Our Final Invention, author James Barrat mentions that, if humans are ready to tackle AI and develop it to the ultimate Artificial Super Intelligence, then the Wall Street might be the first place to look for such an advancement [@book-our-final-invention]. Coming back to the point made earlier : the banking and investment sector holds some very promising advancements for data science and artificial intelligence. 
 
-On this note, it is then necessary to state that the stock prediction can be a very tempting prospect for most data scientists. The financial market has a very short feedback cycle and hence quick validation of predictions is possible. However, it is extremely difficult to develop a model that can provide higher levels of accuracy in most of its predictions. It is very much possible that the model developed would make predictions for a maximum of one day after which you might have to revamp it all over again [@fa18-523-66-python-stock-pred]. Nonetheless, this paper will attempt to develop a model that predicts the trends for stock prices over time.
+On this note, it is then necessary to state that the stock prediction can be a very tempting prospect for most data scientists. The financial market has a very short feedback cycle and hence quick validation of predictions is possible. However, it is extremely difficult to develop a model that can provide higher levels of accuracy in most of its predictions. It is very much possible that the model developed would make predictions for a maximum of one day after which you might have to revamp it all over again [@www-python-stock-pred]. Nonetheless, this paper will attempt to develop a model that predicts the trends for stock prices over time.
 
 ## Implementation
 
@@ -41,9 +41,9 @@ On this note, it is then necessary to state that the stock prediction can be a v
 
 Knowledge Discovery of Databases is the sequential process of transforming raw data into actionable insights [@book-intro-data-mining]. The most important step in the KDD lifecycle is: preprocessing the data. A model applied to a dataset is only as good as the data it is applied to. In this regard, most times raw data is available in the most crude formats, with noise, duplicates, missing values or at times even necessiate parsing of large webpages and documents.
 
-Data for this project was derived from Quandl and Yahoo Finance. The stocks considered are those listed on the Dow Jones Index: 3M (MMM), American Express (AXP), Apple (AAPL), Boeing (BA), Caterpillar (CAT), Chevron (CVX), Cisco (CSCO), Coca-Cola (KO), DowDuPont Inc (DWDP), Exxon Mobil (XOM), Goldman Sachs (GS), Home Depot (HD), IBM (IBM), Intel (INTC), Johnson & Johnson (JNJ), JPMorgan Chase (JPM), McDonald's (MCD), Merck (MRK), Microsoft (MSFT), Nike (NKE), Pfizer (PFE), Procter & Gamble (PG), Travelers Companies Inc (TRV), United Health (UNH), United Technologies (UTX), Verizon (VZ), Visa (V), Walmart (WMT), Walgreens Boots Alliance (WBA), Walt Disney (DIS) [@https://money.cnn.com/data/dow30/]. 
+Data for this project was derived from Quandl and Yahoo Finance. The stocks considered are those listed on the Dow Jones Index: 3M (MMM), American Express (AXP), Apple (AAPL), Boeing (BA), Caterpillar (CAT), Chevron (CVX), Cisco (CSCO), Coca-Cola (KO), DowDuPont Inc (DWDP), Exxon Mobil (XOM), Goldman Sachs (GS), Home Depot (HD), IBM (IBM), Intel (INTC), Johnson & Johnson (JNJ), JPMorgan Chase (JPM), McDonald's (MCD), Merck (MRK), Microsoft (MSFT), Nike (NKE), Pfizer (PFE), Procter & Gamble (PG), Travelers Companies Inc (TRV), United Health (UNH), United Technologies (UTX), Verizon (VZ), Visa (V), Walmart (WMT), Walgreens Boots Alliance (WBA), Walt Disney (DIS) [@www-cnn-money]. 
 
-The historical for the stocks are available to be downloaded via an API on Quandl. The Quandl platform makes it easy to download financial and alternative data for analysis [@https://www.quandl.com/]. A python script can easily donload allthe historical data for the companies in the Dow index. However, some datasets are only available to premium users; data for both Walgreens Boots Alliance (WBA) and DowDuPont Inc (DWDP) are available for a small fee. The data descriptions for the 30 datasets is as follows [@https://www.quandl.com/data/EOD/HD-Home-Depot-Inc-The-HD-Stock-Prices-Dividends-and-Splits]:
+The historical for the stocks are available to be downloaded via an API on Quandl. The Quandl platform makes it easy to download financial and alternative data for analysis [@www-quandl]. A python script can easily donload allthe historical data for the companies in the Dow index. However, some datasets are only available to premium users; data for both Walgreens Boots Alliance (WBA) and DowDuPont Inc (DWDP) are available for a small fee. The data descriptions for the 30 datasets is as follows [@www-quandl-desc]:
 
 * Date - date in YYYY-MM-DD format
 * Open - opening price of stock in dollars
@@ -69,9 +69,9 @@ The historical data for the DJIA needs to be downloaded manually from yahoo fina
 * Volume - volume of traded stocks
 * Adj_Close - adjusted to include any influential corporate actions and distributions
 
-The final dataset required is the given day's data about the stock. This can be available in one of two ways: parsing the Yahoo Finance website for each stock or by parsing the CNN Business website for a complete summary table for all the stocks. Both methods are implemented via python scripts and the pandas toolkit. To parse the Yahoo Finance website for data, the first step involved is to download static files of the html pages (????this would reduce overhead). Then it is a simple case of parsing the HTML documents. The similar process can be followed to downloas the summary statistics from the CNN website.
+The final dataset required is the given day's data about the stock. This can be available in one of two ways: parsing the Yahoo Finance website for each stock or by parsing the CNN Business website for a complete summary table for all the stocks. Both methods are implemented via python scripts and the pandas toolkit. To parse the Yahoo Finance website for data, the first step involved is to download static files of the html pages. Then it is a simple case of parsing the HTML documents. The similar process can be followed to downloas the summary statistics from the CNN website.
 
-Note that it is also possible to download historical data from the  U.S. Securities and Exchange Commission (SEC) website if quandl is not preferred [@https://www.sec.gov/].
+Note that it is also possible to download historical data from the  U.S. Securities and Exchange Commission (SEC) website if quandl is not preferred [@www-sec].
 
 ### Design
 
@@ -103,7 +103,7 @@ But first it is always advantageous to determine the relationship between the da
 ![Data Correlation 2 [@image-data-correlation-2]](images/dataExplore2.png){#fig:DataCorrelation2}
 
 
-In order to make sure all possibilities for the said model have been considered, another relationship was considered. Over the net quite a number of traders rave about the OHL technique. Note that this strategy is only to be used for intraday trading and not for long term analysis. However, it would be interesting to determine whether this strategy would provide the desired results. the strategy has two basic rules and only three of the factors from the originally proposed model are used: Open, Low and High. The first step would be to find the difference between the Open and Low (diff1) , and the Open and High (diff2). If diff1 is greater than diff2 then it indicates a downward trend, while if diff2 is greter than diff1 then it indicates an upward trend. As such inorder to visualize the data, we check its correlation matrix [@http://www.mudraa.com/trading/93282/2/trend-finding-method-this-strategy-only-for-intraday--2.html].  +@fig:DataCorrelation3 shows the correlation between the day's open and the low and high variables.
+In order to make sure all possibilities for the said model have been considered, another relationship was considered. Over the net quite a number of traders rave about the OHL technique. Note that this strategy is only to be used for intraday trading and not for long term analysis. However, it would be interesting to determine whether this strategy would provide the desired results. the strategy has two basic rules and only three of the factors from the originally proposed model are used: Open, Low and High. The first step would be to find the difference between the Open and Low (diff1) , and the Open and High (diff2). If diff1 is greater than diff2 then it indicates a downward trend, while if diff2 is greter than diff1 then it indicates an upward trend. As such inorder to visualize the data, we check its correlation matrix [@www-OHL-strategy].  +@fig:DataCorrelation3 shows the correlation between the day's open and the low and high variables.
 
 ![Data Correlation 3 [@image-data-correlation-3]](images/dataExplore3.png){#fig:DataCorrelation3}
 
@@ -115,7 +115,7 @@ It is interesting to note that there is little to no correlation between the two
 > Nevertheless, the user must still provide other parameters such as the type of kernel function to use and the cost function C for 
 > introducing each slack variable" [@book-intro-data-mining].
 
-Support Vector Machines are most suitable when there are a large number of features and the numeber of rows in the training data is quite large. It is usually considered the best model in situations where there is high sparcity or problems where the number of zero values among the features is high. Furthermore, using the kernal trick ensures optimization of algorithms and problems [@https://www.researchgate.net/post/When_we_use_Support_Vector_machine_for_Classification].
+Support Vector Machines are most suitable when there are a large number of features and the numeber of rows in the training data is quite large. It is usually considered the best model in situations where there is high sparcity or problems where the number of zero values among the features is high. Furthermore, using the kernal trick ensures optimization of algorithms and problems [@www-svm-machine-learning].
 
 ##### Model Fitting
 
@@ -193,11 +193,11 @@ The reason for there being a difference in predictions between the real-world an
 
 ## Conclusion
 
-The stock market is non-linear in nature, owing to which it is quite challenging to predict a trend with great accuracy [@that last tab opened]. Nevertheless, it has attracted one too many investors and analysts in attempting to predict its performance:
+The stock market is non-linear in nature, owing to which it is quite challenging to predict a trend with great accuracy [@article-predict-stock-price]. Nevertheless, it has attracted one too many investors and analysts in attempting to predict its performance:
 
 > "It was not at all what the experts predicted. most of them did not forsee that an economic powerhouse could suffer so much damage in > such a short  period of time. They did not expect the fast-growing gross domestic product (GDP) to go so spectacularly into reverse, 
 > the real estate bubble to burst as violently as it did, and industrial production and capacity utilization to fall so steeply. Nor did > they expect the stock market to plunge so dramatically from ita all-time high- although it would recover some ground 
-> subsequently....But the real issue is not what has happened, but what happens net" [@book-accelerating -out-of-the-great-recession].
+> subsequently....But the real issue is not what has happened, but what happens net" [@book-accelerating-out-of-the-great-recession].
 
 This report presents the study in using data mining algorithms (Support Vector Machines and Logistic Regression) to predict whether a stock underperforms or outperforms the market. The imperfection in the results obtained via this project can be attributed to the change in political changes, current economical shifts and lastly the ever-changing investor prospects.
 
