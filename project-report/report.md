@@ -1,4 +1,4 @@
-# Do I buy or sell? - Using Big Data to predict Stock Performance  :hand:  fa18-523-66 (...editing)
+# Do I buy or sell? - Using Big Data to predict Stock Performance  :hand:  fa18-523-66 
 
 | Ritu Susan Sanjay   
 | rssanjay@iu.edu
