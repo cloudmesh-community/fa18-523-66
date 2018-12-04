@@ -178,9 +178,18 @@ Choosing the right kernel can prove to be tedious, give the nature of the data. 
 
 ![SVM Model Performance [@image-svm-model-perf]](images/ModelPerformance.JPG){#fig:ModelPerformance}
 
+In order to evalute the better model from among the three, the performance features (namely, accuracy rate, error rate, true positive rate, false positive rate, specificity, precision and prevalence) have been calculated. Interestingly, the difference in the rates of all three models is quite negligible. However, considering how the Open, Low , High and Close variables are frequently used for predictions, then Model-2 would be the best possible fit for the data.
+
 ## Results
 
++@fig:Results shows the results for the prediction on recent data.
 
+![SVM Model Results [@image-svm-model-results]](images/results.png){#fig:Results}
+
+Note that the the values '2' and '1' have been used to represent 'Underperform' and 'Outperform' respectively.
+The results shown above indicate that out of all the twenty-eight stocks in the list, only model predicts that only United Health Group is expected to outperform the market. 
+
+The reason for there being a difference in predictions between the real-world and the project model may be attribute dthe various features that have not been considered for the model. Features such as total debt-to-equity ratio, market cap, volume etc. would provide better prediction. Also, many internal financial factors have not been considered like the financial reports realeased by each company. Thus, this model proves that it can be quite challenging (but quite possible) to create a model which predicts the performance of the companies in accordance with the market changes. Nevertheless, this could prove to be a ost promising project for future work.
 
 ## Conclusion
 
