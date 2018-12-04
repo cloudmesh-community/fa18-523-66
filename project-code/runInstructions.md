@@ -29,4 +29,7 @@
 * dow30Performance.r
   
   *Run dow30Perfoemance.r once all the datasets have been downloaded and stored in a seperate folder.*
-  *This file still has code to be appended; not complete!!!*
+
+
+
+#### NOTE : Please change folders, file names, directories etc. 
