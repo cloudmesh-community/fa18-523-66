@@ -39,6 +39,7 @@ f1 = list("MMM","AXP","AAPL","BA","CAT","CVX","CSCO","KO", "XOM","GS","HD",
       "VZ","V","WMT","DIS","MSFT")
 
 #read data
+#please change path to your own directory
 DJI <- read_csv("/Users/Sanjay/Documents/StockPredictor/DJI.csv", 
                 col_types = cols(Date = col_date(format = "%Y-%m-%d")))
 MMM <- read_csv("/Users/Sanjay/Documents/StockPredictor/HistoricData/MMM.csv", 
@@ -134,6 +135,7 @@ DIS$ticker <- "DIS"
 MSFT$ticker <- "MSFT"
 
 
+#merge the stock data sets with Dow index dataset
 
 merge1 <- merge(x=DJI, y=MMM, by = "Date")
 merge2 <- merge(x=DJI, y=AXP, by = "Date")
@@ -288,7 +290,7 @@ shift<-function(x,shift_by){
 #d$df_lead2<-shift(d$x,2)
 #anothertestdata$prevopen <-shift(anothertestdata$Open.y,-1)
 
-
+# we need the previous day Close values
 newdataset$prevopen <- shift(newdataset$Open.y,-1)
 newdataset$prevhigh <- shift(newdataset$High.y,-1)
 newdataset$prevlow <- shift(newdataset$Low.y,-1)
@@ -306,6 +308,7 @@ newdataset$diffnewOpen_newLow <- newdataset$Open.y - newdataset$Low.y
 
 #***************************#
 
+# stock performance
 dow30perf <-newdataset[,c(1,20:34)]
  
 p1 <- ggplot(merge1,aes(x=merge1$Date))+
@@ -345,6 +348,8 @@ p <- p1 + p2 +p3 +p4 +p5 +p6 +p7 +p8+p9 +p10+
      
 
 print(p)
+
+#*************# 
 
 # plot the market performance
 p2 <- ggplot(DJI,aes(x=DJI$Date))+
@@ -418,6 +423,7 @@ dataset12 <- subdata3_test$status
 #***************************#
 
 #explore data
+#correlation between variables
 plot(subdata_train) #no use :P
 
 corr1 <- ggpairs(subdata_train,aes(colour = status, alpha= 0.4))
@@ -437,21 +443,23 @@ print(corr4)
 
 #***************************#
 # svm model-1
-svm_model1 <- svm(dataset1,
-                  dataset2,
-                  type = 'C-classification',
-                  kernel='linear')
-summary(svm_model1)
-
-pred1 <- predict(svm_model1,dataset1)
-system.time(pred1 <- predict(svm_model1,dataset1))
-table(pred1,dataset2)
+#linear kernel
+#not recommended - hence commented
+#svm_model1 <- svm(dataset1,
+#                  dataset2,
+#                  type = 'C-classification',
+#                  kernel='linear')
+#summary(svm_model1)
+#
+#pred1 <- predict(svm_model1,dataset1)
+#system.time(pred1 <- predict(svm_model1,dataset1))
+#table(pred1,dataset2)
 
 
 #***************************#
 
 #svm model-2
-
+#radial kernel
 svm_model2 <- svm(dataset1,
                   dataset2, 
                  data= subdata_train,
@@ -464,10 +472,10 @@ system.time(pred2 <- predict(svm_model2,dataset1))
 table(pred2,dataset2)
 
 #plot the svm
-print(svm_model2)
-plot(svm_model2,subdata_train,
-     subdata_train$High.y ~ subdata_train$Close.y,
-     slice = list(subdata_train$Open.y = 68, subdata_train$Low.y = 65))
+#print(svm_model2)
+#plot(svm_model2,subdata_train,
+#     subdata_train$High.y ~ subdata_train$Close.y,
+#     slice = list(subdata_train$Open.y = 68, subdata_train$Low.y = 65))
 
 #*****************************#
 
@@ -476,7 +484,6 @@ plot(svm_model2,subdata_train,
 test_pred1 <- predict(svm_model2,type='response',newdata = dataset3)
 table(test_pred1,dataset4)
 
-#*****************************#
 #*******************************#
 #svm model-3
 
