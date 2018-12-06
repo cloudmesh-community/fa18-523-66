@@ -3,6 +3,7 @@
 ### Important : Please note that all filepaths mentioned in the code <ins>NEEDS</ins> to be changed!!!
 
 #### Note : The python programs only serves to extract data and create the csv files. The data mining models are witten in r. 
+#### Note : Code may be run on any platform as preferred. However, I recommend using a Jupyter notebook or IDLE (for python) and RStudio (for R) 
 
 * The Dow Jones Index cannot be downloaded via script, but manually from Yahoo Finance (https://finance.yahoo.com/quote/%5EDJI/history?p=%5EDJI). I have included the DJI.csv file in the project-code folder.
 
