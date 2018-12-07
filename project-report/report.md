@@ -34,7 +34,7 @@ In years past, traders and banks made decisions based on market trends and calcu
 > "It was not at all what the experts predicted. most of them did not forsee that an economic powerhouse could suffer so much > damage in such a short  period of time. They did not expect the fast-growing gross domestic product (GDP) to go so 
 > spectacularly into reverse, the real estate bubble to burst as violently as it did, and industrial production and capacity 
 > utilization to fall so steeply. Nor did they expect the stock market to plunge so dramatically from ita all-time high- 
-> although it would recover some ground subsequently....But the real issue is not what has happened, but what happens next" [@book-accelerating-out-of-the-great-recession].
+> although it would recover some ground subsequently....But the real issue is not what has happened, but what happens next" [@book-accelerating-out-of-the-great-depression].
 
 On this note, it is then necessary to state that the stock prediction can be a very tempting prospect for most data scientists. The financial market has a very short feedback cycle and hence quick validation of predictions is possible. However, it is extremely difficult to develop a model that can provide higher levels of accuracy in most of its predictions. It is very much possible that the model developed would make predictions for a maximum of one day after which you might have to revamp it all over again [@www-python-stock-pred]. Nonetheless, this paper will attempt to develop a model that predicts the trends for stock prices over time.
 
