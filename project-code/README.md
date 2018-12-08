@@ -31,6 +31,6 @@
   
   *Run dow30Perfoemance.r once all the datasets have been downloaded and stored in a seperate folder.*
 
-
+* For the testing dataset, you must download from yahoo finance again ( Eg :https://finance.yahoo.com/quote/AAPL/history?p=AAPL) historical data or copy them to one .csv file (as you see fit). The test part of the ode will not run if this step is not done.
 
 #### NOTE : Please change folders, file names, directories etc. 
