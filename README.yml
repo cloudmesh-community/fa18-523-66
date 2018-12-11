@@ -5,6 +5,10 @@ owner:
   hid : "fa18-523-66"
   community : i523
   semester: fa18
+  
+notebook:
+  -url: https://github.com/cloudmesh-community/fa18-523-66/blob/master/notebook.md 
+  
 technologies:
   - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/apache-derby.md
   - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/r.md
