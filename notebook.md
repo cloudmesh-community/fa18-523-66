@@ -62,7 +62,10 @@
 # Week 16: Fri 11/30/18 - 12/06/18
   *  Corrections submitted for assignment-1 : Technology summaries (bib file)
   *  Submitted project code and report
-    
+
+# Week 17: Fri 12/07/18 - 12/14/18
+  *  Corrections in bibligrapgy file for paper and project-report made
+ 
  
 
   
