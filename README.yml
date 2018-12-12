@@ -8,6 +8,9 @@ owner:
   course: "Big Data Applications and Analytics"
   online: "Yes"
   
+profile: 
+  -url: https://github.com/RituSanjay
+  
 notebook:
   -url: https://github.com/cloudmesh-community/fa18-523-66/blob/master/notebook.md 
   
