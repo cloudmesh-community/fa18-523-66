@@ -1,4 +1,4 @@
-# SAS Viya  :smiley: fa18-523-66 
+# SAS Viya  :wave:
 
 | Ritu Susan Sanjay
 | rssanjay@iu.edu
